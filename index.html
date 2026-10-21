@@ -228,7 +228,7 @@ a:hover{color:#6b6b6b;}
             <article style="display:flex;flex-direction:column;gap:10px;">
               <div style="position:relative;width:100%;aspect-ratio:{{ thumbRatio }};overflow:hidden;background:#ececea;">
                 <sc-if value="{{ d.hasPhoto }}" hint-placeholder-val="{{ false }}">
-                  <img src="{{ d.photo }}" alt="{{ d.designer }}" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:{{ d.photoPos }};transform:scale({{ d.photoZoom }});transform-origin:{{ d.photoPos }};display:block;">
+                  <img src="{{ d.photo }}" alt="{{ d.designer }}" loading="lazy" onError="{{ d.onPhotoErr }}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:{{ d.photoPos }};transform:scale({{ d.photoZoom }});transform-origin:{{ d.photoPos }};display:block;">
                 </sc-if>
                 <sc-if value="{{ d.noPhoto }}" hint-placeholder-val="{{ true }}">
                   <image-slot id="designer-{{ d.slug }}" shape="rect" placeholder="{{ d.designer }} — 프로필 사진"></image-slot>
@@ -362,7 +362,7 @@ a:hover{color:#6b6b6b;}
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{&quot;thumbRatio&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;4:5&quot;,&quot;1:1&quot;,&quot;3:4&quot;,&quot;3:2&quot;],&quot;default&quot;:&quot;4:5&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;showIndex&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;},&quot;stickyHeader&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;},&quot;hoverMotion&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;}}">
 const INTRO = '여덟 명의 디자이너가 일상 속 문제를 발견하고, 저마다의 관점으로 그 문제를 다시 바라봅니다. 그리고 각자의 시선에 맞는 해답을 하나의 제품으로 완성하기까지의 과정을 이곳에 기록했습니다.';
-const PHOTO_FIT = { 'park-geonhwa': { z: 1.3, p: '53% 28%' }, 'kwak-hoyoung': { z: 1.1, p: '50% 30%' } };
+const PHOTO_FIT = { 'park-geonhwa': { z: 1.3, p: '53% 28%' }, 'kwak-hoyoung': { z: 1.1, p: '50% 30%' }, 'jung-woohyun': { z: 1.1, p: '50% 22%' } };
 const ORDER = ['박건화', '이유빈', '김태연', '남제헌', '곽호영', '정우현', '손한영', '최예원'];
 const WORKS = [
   { slug: 'jung-woohyun', tagline: '미정', title: '미정', subtitle: '미정', designer: '정우현', designerEn: 'Jung Woohyun', type: '미정', material: '미정', lead: '미정', body: '미정' },
@@ -378,7 +378,7 @@ const WORKS = [
 
 const KEYWORDS = [{en:'Keyword 01',ko:'키워드 설명'},{en:'Keyword 02',ko:'키워드 설명'},{en:'Keyword 03',ko:'키워드 설명'},{en:'Keyword 04',ko:'키워드 설명'},{en:'Keyword 05',ko:'키워드 설명'},{en:'Keyword 06',ko:'키워드 설명'}];
 
-const PHOTOS = ['kwak-hoyoung', 'nam-jeheon', 'son-hanyoung', 'lee-yubin', 'park-geonhwa', 'kim-taeyeon'];
+const PHOTOS = ['park-geonhwa', 'lee-yubin', 'kim-taeyeon', 'nam-jeheon', 'kwak-hoyoung', 'jung-woohyun', 'son-hanyoung', 'choi-yewon'];
 
 class Component extends DCLogic {
   state = { opened: true, intro: true, turned: false, drag: null, step: 0, view: 'grid', filter: null, route: this.parse(), w: typeof window !== 'undefined' ? window.innerWidth : 1280 };
@@ -562,7 +562,7 @@ class Component extends DCLogic {
       notHome: p !== 'home', headerLine: p === 'home' ? 'transparent' : '#e6e6e3', isAbout: p === 'about', isWork: p === 'work', isDesigners: p === 'designers',
       designersLine: p === 'designers' ? '#111' : 'transparent', goDesigners: this.nav('#/designers'),
       designerCols: `repeat(${w >= 420 ? 3 : 2}, minmax(0,1fr))`,
-      designers: works.map((x, i) => ({ ...x, no: String(i + 1).padStart(2, '0'), photo: PHOTOS.includes(x.slug) ? 'assets/designers/' + x.slug + '.jpg' : '', photoZoom: (PHOTO_FIT[x.slug] || {}).z || 1, photoPos: (PHOTO_FIT[x.slug] || {}).p || '50% 20%', hasPhoto: PHOTOS.includes(x.slug), noPhoto: !PHOTOS.includes(x.slug) })),
+      designers: works.map((x, i) => ({ ...x, no: String(i + 1).padStart(2, '0'), photo: PHOTOS.includes(x.slug) ? 'assets/designers/' + x.slug + '.jpg' : '', photoZoom: (PHOTO_FIT[x.slug] || {}).z || 1, photoPos: (PHOTO_FIT[x.slug] || {}).p || '50% 20%', hasPhoto: PHOTOS.includes(x.slug) && !(this.state.broken || {})[x.slug], noPhoto: !PHOTOS.includes(x.slug) || !!(this.state.broken || {})[x.slug], onPhotoErr: () => this.setState(s => ({ broken: { ...(s.broken || {}), [x.slug]: true } })) })),
       aboutLine: p === 'about' ? '#111' : 'transparent',
       workLine: p === 'work' || p === 'detail' ? '#111' : 'transparent',
       goHome: this.nav('#/'), goAbout: this.nav('#/about'), goWork: this.nav('#/work'),
