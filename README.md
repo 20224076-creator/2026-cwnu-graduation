@@ -12,3 +12,4 @@
 - `support.js`, `image-slot.js` — 실행에 필요한 스크립트 (삭제 금지)
 - `assets/` — 봉투 종이 질감, 디자이너 프로필 사진
 - `.nojekyll` — GitHub Pages 처리 방지용 빈 파일 (삭제 금지)
+
