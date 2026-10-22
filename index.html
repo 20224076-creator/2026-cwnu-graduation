@@ -378,6 +378,7 @@ const WORKS = [
 
 const KEYWORDS = [{en:'Keyword 01',ko:'키워드 설명'},{en:'Keyword 02',ko:'키워드 설명'},{en:'Keyword 03',ko:'키워드 설명'},{en:'Keyword 04',ko:'키워드 설명'},{en:'Keyword 05',ko:'키워드 설명'},{en:'Keyword 06',ko:'키워드 설명'}];
 
+const photoCands = (x) => { const names = [x.slug, x.designer].filter(Boolean); const out = []; for (const dir of ['assets/designers/', 'assets/', '']) for (const n of names) for (const e of ['jpg', 'jpeg', 'png', 'JPG', 'JPEG', 'PNG', 'webp']) out.push(dir + n + '.' + e); return out; };
 const PHOTOS = ['park-geonhwa', 'lee-yubin', 'kim-taeyeon', 'nam-jeheon', 'kwak-hoyoung', 'jung-woohyun', 'son-hanyoung', 'choi-yewon'];
 
 class Component extends DCLogic {
@@ -562,7 +563,7 @@ class Component extends DCLogic {
       notHome: p !== 'home', headerLine: p === 'home' ? 'transparent' : '#e6e6e3', isAbout: p === 'about', isWork: p === 'work', isDesigners: p === 'designers',
       designersLine: p === 'designers' ? '#111' : 'transparent', goDesigners: this.nav('#/designers'),
       designerCols: `repeat(${w >= 420 ? 3 : 2}, minmax(0,1fr))`,
-      designers: works.map((x, i) => ({ ...x, no: String(i + 1).padStart(2, '0'), photo: PHOTOS.includes(x.slug) ? 'assets/designers/' + x.slug + '.jpg' : '', photoZoom: (PHOTO_FIT[x.slug] || {}).z || 1, photoPos: (PHOTO_FIT[x.slug] || {}).p || '50% 20%', hasPhoto: PHOTOS.includes(x.slug) && !(this.state.broken || {})[x.slug], noPhoto: !PHOTOS.includes(x.slug) || !!(this.state.broken || {})[x.slug], onPhotoErr: () => this.setState(s => ({ broken: { ...(s.broken || {}), [x.slug]: true } })) })),
+      designers: works.map((x, i) => ({ ...x, no: String(i + 1).padStart(2, '0'), photo: PHOTOS.includes(x.slug) ? photoCands(x)[(this.state.ptry || {})[x.slug] || 0] : '', photoZoom: (PHOTO_FIT[x.slug] || {}).z || 1, photoPos: (PHOTO_FIT[x.slug] || {}).p || '50% 20%', hasPhoto: PHOTOS.includes(x.slug) && ((this.state.ptry || {})[x.slug] || 0) < photoCands(x).length, noPhoto: !PHOTOS.includes(x.slug) || ((this.state.ptry || {})[x.slug] || 0) >= photoCands(x).length, onPhotoErr: () => this.setState(s => ({ ptry: { ...(s.ptry || {}), [x.slug]: ((s.ptry || {})[x.slug] || 0) + 1 } })) })),
       aboutLine: p === 'about' ? '#111' : 'transparent',
       workLine: p === 'work' || p === 'detail' ? '#111' : 'transparent',
       goHome: this.nav('#/'), goAbout: this.nav('#/about'), goWork: this.nav('#/work'),
