@@ -261,11 +261,11 @@ a:hover{color:#6b6b6b;}
 
     <sc-for list="{{ works }}" as="w" hint-placeholder-count="0">
       <sc-if value="{{ w.isCurrent }}" hint-placeholder-val="{{ false }}">
-        <article data-screen-label="Work Detail" style="display:flex;flex-direction:column;gap:clamp(56px,7.8vw,100px);padding-top:clamp(56px,10vw,168px);">
+        <article data-screen-label="Work Detail" style="display:flex;flex-direction:column;padding-top:clamp(56px,10vw,168px);">
           <div style="padding:0 clamp(20px,11vw,142px);display:grid;grid-template-columns:{{ heroCols }};gap:24px clamp(24px,4vw,64px);align-items:start;">
             <div style="display:flex;flex-direction:column;gap:14px;">
               <h1 style="margin:0;font-size:clamp(48px,6.2vw,80px);font-weight:700;letter-spacing:-0.04em;line-height:1;">{{ w.title }}</h1>
-              <div style="font-size:clamp(18px,1.7vw,22px);font-weight:500;line-height:1.35;letter-spacing:-0.02em;max-width:260px;">{{ w.subtitle }}</div>
+              <div style="font-size:clamp(18px,1.7vw,22px);font-weight:500;line-height:1.35;letter-spacing:-0.02em;max-width:360px;word-break:keep-all;text-wrap:balance;">{{ w.subtitle }}</div>
               <div style="display:flex;gap:10px;align-items:baseline;font-size:18px;margin-top:6px;"><span>{{ w.designerEn }}</span><span style="font-size:15px;color:#6b6b6b;">{{ w.designer }}</span></div>
             </div>
             <div style="display:flex;flex-direction:column;gap:12px;max-width:620px;padding-top:clamp(0px,5vw,60px);">
@@ -273,76 +273,33 @@ a:hover{color:#6b6b6b;}
               <p style="margin:0;font-size:18px;line-height:1.6;letter-spacing:-0.01em;text-wrap:pretty;">{{ w.lead }} {{ w.body }}</p>
             </div>
           </div>
-          <div style="width:100%;aspect-ratio:1280/1002;"><image-slot id="work-{{ w.slug }}-main" shape="rect" placeholder="Hero shot — 제품이 잘 드러난 대표 이미지"></image-slot></div>
-          <div style="padding:0 clamp(12px,1.2vw,16px);"><div style="width:100%;aspect-ratio:1250/824;"><image-slot id="work-{{ w.slug }}-video-intro" shape="rect" placeholder="Intro video — 브랜딩/연출 영상"></image-slot></div></div>
-          <section style="display:flex;flex-direction:column;gap:clamp(28px,3.9vw,50px);"><div style="padding:0 clamp(20px,11vw,142px);display:flex;flex-direction:column;gap:clamp(24px,3vw,40px);">
-            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;font-size:18px;font-weight:500;letter-spacing:-0.01em;"><span>Background</span><span style="font-family:'IBM Plex Mono',monospace;font-size:14px;">01</span></div>
-            <div style="display:flex;flex-direction:column;gap:10px;max-width:996px;"><h3 style="margin:0;font-size:19px;font-weight:600;letter-spacing:-0.02em;line-height:1.4;">배경 제목을 한 줄로 적어주세요</h3><p style="margin:0;font-size:17px;line-height:1.7;color:#333;text-wrap:pretty;">프로젝트를 시작하게 된 사회적·환경적 맥락을 간결하고 가독성 있게 적어주세요. 이 영역의 폭까지 텍스트를 채울 수 있습니다.</p></div>
-          </div><div style="padding:0 clamp(12px,1.2vw,16px);display:grid;grid-template-columns:{{ pairCols }};gap:clamp(10px,1.6vw,20px);"><div style="width:100%;aspect-ratio:615/526;"><image-slot id="work-{{ w.slug }}-a" shape="rect" placeholder="사진 또는 다이어그램"></image-slot></div><div style="width:100%;aspect-ratio:615/526;"><image-slot id="work-{{ w.slug }}-b" shape="rect" placeholder="사진 또는 다이어그램"></image-slot></div></div></section>
-          <section style="display:flex;flex-direction:column;gap:clamp(28px,3.9vw,50px);"><div style="padding:0 clamp(20px,11vw,142px);display:flex;flex-direction:column;gap:clamp(24px,3vw,40px);">
-            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;font-size:18px;font-weight:500;letter-spacing:-0.01em;"><span>Painpoint</span><span style="font-family:'IBM Plex Mono',monospace;font-size:14px;">02</span></div>
-            <div style="display:flex;flex-direction:column;gap:10px;max-width:996px;"><p style="margin:0;font-size:17px;line-height:1.7;color:#333;text-wrap:pretty;">현재 사용 경험에서 발견한 문제와 한계를 적어주세요.</p></div>
-          </div><div style="padding:0 clamp(12px,1.2vw,16px);display:grid;grid-template-columns:{{ pairCols }};gap:clamp(10px,1.6vw,20px);"><div style="width:100%;aspect-ratio:615/526;"><image-slot id="work-{{ w.slug }}-pain" shape="rect" placeholder="사진 또는 다이어그램"></image-slot></div><div style="aspect-ratio:615/526;background:#f2f2f2;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;padding:32px;text-align:center;"><div style="font-size:clamp(56px,6vw,80px);font-weight:700;letter-spacing:-0.04em;line-height:1;">00%</div><p style="margin:0;font-size:17px;line-height:1.6;max-width:390px;">문제를 뒷받침하는 핵심 수치와 출처를 한두 줄로 적어주세요.</p></div></div></section>
-          <section style="display:flex;flex-direction:column;gap:clamp(28px,3.9vw,50px);"><div style="padding:0 clamp(20px,11vw,142px);display:flex;flex-direction:column;gap:clamp(24px,3vw,40px);">
-            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;font-size:18px;font-weight:500;letter-spacing:-0.01em;"><span>Discover</span><span style="font-family:'IBM Plex Mono',monospace;font-size:14px;">03</span></div>
-            <div style="display:flex;flex-direction:column;gap:10px;max-width:996px;"><p style="margin:0;font-size:17px;line-height:1.7;color:#333;text-wrap:pretty;">페인포인트에서 컨셉이 도출되기까지, 리서치 과정에서 발견한 내용을 적어주세요.</p></div>
-          </div><div style="padding:0 clamp(12px,1.2vw,16px);"><div style="width:100%;aspect-ratio:1250/526;"><image-slot id="work-{{ w.slug }}-discover" shape="rect" placeholder="리서치 자료"></image-slot></div></div></section>
-          <section style="display:flex;flex-direction:column;gap:clamp(28px,3.9vw,50px);"><div style="padding:0 clamp(20px,11vw,142px);display:flex;flex-direction:column;gap:clamp(24px,3vw,40px);">
-            <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;font-size:18px;font-weight:500;letter-spacing:-0.01em;"><span>Solution</span><span style="font-family:'IBM Plex Mono',monospace;font-size:14px;">04</span></div>
-            <div style="display:flex;flex-direction:column;gap:10px;max-width:996px;"><h3 style="margin:0;font-size:19px;font-weight:600;letter-spacing:-0.02em;line-height:1.4;">솔루션 제목을 한 줄로 적어주세요</h3><p style="margin:0;font-size:17px;line-height:1.7;color:#333;text-wrap:pretty;">리서치와 이어지는 해결 방향을 적어주세요.</p></div>
-          </div><div style="padding:0 clamp(12px,1.2vw,16px);"><div style="width:100%;aspect-ratio:1250/482;"><image-slot id="work-{{ w.slug }}-solution" shape="rect" placeholder="솔루션 자료"></image-slot></div></div></section>
-          <section style="display:flex;flex-direction:column;gap:clamp(28px,3.9vw,50px);">
-            <div style="padding:0 clamp(20px,11vw,142px);display:flex;justify-content:space-between;align-items:baseline;font-size:18px;font-weight:500;"><span>Concept</span><span style="font-family:'IBM Plex Mono',monospace;font-size:14px;">05</span></div>
-            <div style="padding:0 clamp(20px,11vw,142px);display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center;">
-              <h3 style="margin:0;font-size:clamp(28px,2.9vw,37px);font-weight:600;letter-spacing:-0.025em;line-height:1.2;">{{ w.tagline }}</h3>
-              <p style="margin:0;font-size:18px;line-height:1.6;max-width:620px;text-wrap:pretty;">{{ w.lead }}</p>
-            </div>
-            <div style="width:100%;aspect-ratio:1280/893;"><image-slot id="work-{{ w.slug }}-concept" shape="rect" placeholder="Concept — main shot"></image-slot></div>
-          </section>
-          <section style="padding:0 clamp(12px,1.2vw,16px);display:grid;grid-template-columns:{{ pairCols }};gap:clamp(28px,3.9vw,50px) clamp(10px,1.6vw,20px);">
-            <div style="display:flex;flex-direction:column;gap:20px;"><div style="padding:0 clamp(8px,4.5vw,58px);display:flex;flex-direction:column;gap:12px;text-align:center;"><div style="font-size:25px;font-weight:600;letter-spacing:-0.02em;">As-is</div><p style="margin:0;font-size:17px;line-height:1.6;text-wrap:pretty;">기존 경험의 방식과 한계를 적어주세요.</p></div><div style="width:100%;aspect-ratio:615/471;"><image-slot id="work-{{ w.slug }}-asis" shape="rect" placeholder="As-is 이미지"></image-slot></div></div>
-            <div style="display:flex;flex-direction:column;gap:20px;"><div style="padding:0 clamp(8px,4.5vw,58px);display:flex;flex-direction:column;gap:12px;text-align:center;"><div style="font-size:25px;font-weight:600;letter-spacing:-0.02em;">To-be</div><p style="margin:0;font-size:17px;line-height:1.6;text-wrap:pretty;">제안하는 경험이 무엇을 바꾸는지 적어주세요.</p></div><div style="width:100%;aspect-ratio:615/471;"><image-slot id="work-{{ w.slug }}-tobe" shape="rect" placeholder="To-be 이미지"></image-slot></div></div>
-          </section>
-          <section style="display:flex;flex-direction:column;gap:clamp(28px,3.9vw,50px);">
-            <div style="padding:0 clamp(20px,11vw,142px);display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center;">
-              <h3 style="margin:0;font-size:25px;font-weight:600;letter-spacing:-0.02em;line-height:1.3;">핵심 메시지를 한 줄로 적어주세요.</h3>
-              <p style="margin:0;font-size:18px;line-height:1.6;max-width:620px;text-wrap:pretty;">{{ w.body }}</p>
-            </div>
-            <div style="width:100%;aspect-ratio:1280/536;"><image-slot id="work-{{ w.slug }}-concept2" shape="rect" placeholder="Concept — main shot 2"></image-slot></div>
-          </section>
-          <section style="display:flex;flex-direction:column;gap:clamp(28px,3.9vw,50px);">
-            <div style="padding:0 clamp(20px,11vw,142px);display:flex;justify-content:space-between;align-items:baseline;font-size:18px;font-weight:500;"><span>Inspiration</span><span style="font-family:'IBM Plex Mono',monospace;font-size:14px;">06</span></div>
-            <div style="padding:0 clamp(12px,1.2vw,16px);"><div style="width:100%;aspect-ratio:1250/446;"><image-slot id="work-{{ w.slug }}-insp" shape="rect" placeholder="Inspiration 또는 다이어그램"></image-slot></div></div>
-            <div style="background:#f2f2f2;padding:clamp(20px,4vw,50px) clamp(12px,5.3vw,68px);">
-              <div style="background:#fff;display:grid;grid-template-columns:{{ pairCols }};gap:clamp(10px,1.6vw,20px);padding:clamp(20px,3vw,40px);">
-                <div style="aspect-ratio:4/3;"><image-slot id="work-{{ w.slug }}-journey" shape="rect" placeholder="User journey map 또는 다이어그램"></image-slot></div>
-                <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 20px;align-content:center;">
-                  <sc-for list="{{ keywords }}" as="k" hint-placeholder-count="6">
-                    <div style="display:flex;flex-direction:column;gap:4px;border-top:1px solid #111;padding-top:12px;"><span style="font-size:18px;font-weight:500;letter-spacing:-0.01em;">{{ k.en }}</span><span style="font-size:13px;color:#6b6b6b;">{{ k.ko }}</span></div>
+          <sc-for list="{{ w.blocks }}" as="b" hint-placeholder-count="0">
+            <div style="padding-top:{{ b.pt }};">
+              <sc-if value="{{ b.isSection }}" hint-placeholder-val="{{ false }}">
+                <div style="padding:0 clamp(20px,11vw,142px);display:flex;justify-content:space-between;align-items:baseline;gap:16px;font-size:18px;font-weight:500;letter-spacing:-0.01em;"><span>{{ b.label }}</span><span style="font-family:'IBM Plex Mono',monospace;font-size:14px;">{{ b.no }}</span></div>
+              </sc-if>
+              <sc-if value="{{ b.isText }}" hint-placeholder-val="{{ false }}">
+                <div style="padding:0 clamp(20px,11vw,142px);display:flex;flex-direction:column;gap:12px;align-items:{{ b.align }};text-align:{{ b.textAlign }};">
+                  <sc-if value="{{ b.hasTitle }}" hint-placeholder-val="{{ false }}"><h3 style="margin:0;max-width:996px;font-size:{{ b.titleSize }};font-weight:600;letter-spacing:-0.025em;line-height:1.3;text-wrap:balance;word-break:keep-all;">{{ b.title }}</h3></sc-if>
+                  <sc-if value="{{ b.hasBody }}" hint-placeholder-val="{{ false }}"><p style="margin:0;max-width:{{ b.bodyMax }};font-size:17px;line-height:1.7;color:#333;text-wrap:pretty;word-break:keep-all;white-space:pre-line;">{{ b.body }}</p></sc-if>
+                </div>
+              </sc-if>
+              <sc-if value="{{ b.isMedia }}" hint-placeholder-val="{{ false }}">
+                <div style="padding:{{ b.inset }};display:grid;grid-template-columns:{{ b.cols }};gap:clamp(10px,1.6vw,20px);align-items:start;">
+                  <sc-for list="{{ b.items }}" as="md" hint-placeholder-count="0">
+                    <figure style="margin:0;display:flex;flex-direction:column;gap:10px;min-width:0;">
+                      <sc-if value="{{ md.showImg }}" hint-placeholder-val="{{ false }}"><img src="{{ md.src }}" alt="{{ md.alt }}" style="display:block;width:100%;height:auto;"></sc-if>
+                      <sc-if value="{{ md.isVideo }}" hint-placeholder-val="{{ false }}"><video src="{{ md.src }}" poster="{{ md.poster }}" controls="{{ md.controls }}" autoPlay="{{ md.autoplay }}" muted="{{ md.muted }}" loop="{{ md.loop }}" playsInline="{{ true }}" preload="metadata" ref="{{ md.vref }}" style="display:block;width:100%;height:auto;background:#0a0a0a;"></video></sc-if>
+                      <sc-if value="{{ md.isEmbed }}" hint-placeholder-val="{{ false }}"><div style="position:relative;width:100%;aspect-ratio:{{ md.ratio }};background:#0a0a0a;"><iframe src="{{ md.embed }}" title="{{ md.alt }}" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen="{{ true }}" style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe></div></sc-if>
+                      <sc-if value="{{ md.showPh }}" hint-placeholder-val="{{ false }}"><div style="width:100%;aspect-ratio:{{ md.ratio }};background:#ececea;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:16px;box-sizing:border-box;text-align:center;color:#8a8a86;"><span style="font-size:14px;">{{ md.label }}</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.02em;word-break:break-all;">{{ md.hint }}</span></div></sc-if>
+                      <sc-if value="{{ md.hasCaption }}" hint-placeholder-val="{{ false }}"><figcaption style="font-size:13px;line-height:1.5;color:#6b6b6b;">{{ md.caption }}</figcaption></sc-if>
+                    </figure>
                   </sc-for>
                 </div>
-              </div>
+              </sc-if>
             </div>
-          </section>
-          <section style="display:flex;flex-direction:column;gap:clamp(28px,3.9vw,50px);">
-            <div style="padding:0 clamp(20px,11vw,142px);display:flex;justify-content:space-between;align-items:baseline;font-size:18px;font-weight:500;"><span>Product</span><span style="font-family:'IBM Plex Mono',monospace;font-size:14px;">07</span></div>
-            <div style="padding:0 clamp(12px,1.2vw,16px);display:grid;grid-template-columns:{{ pairCols }};gap:clamp(10px,1.6vw,20px);"><div style="width:100%;aspect-ratio:615/536;"><image-slot id="work-{{ w.slug }}-c" shape="rect" placeholder="제품 사진"></image-slot></div><div style="width:100%;aspect-ratio:615/536;"><image-slot id="work-{{ w.slug }}-d" shape="rect" placeholder="제품 사진"></image-slot></div></div>
-            <div style="padding:0 clamp(12px,1.2vw,16px);"><div style="width:100%;aspect-ratio:1250/526;"><image-slot id="work-{{ w.slug }}-func1" shape="rect" placeholder="Function shot 1"></image-slot></div></div>
-            <div style="padding:0 clamp(12px,1.2vw,16px);display:grid;grid-template-columns:{{ pairCols }};gap:clamp(10px,1.6vw,20px);"><div style="width:100%;aspect-ratio:615/526;"><image-slot id="work-{{ w.slug }}-func2" shape="rect" placeholder="Function shot 2"></image-slot></div><div style="width:100%;aspect-ratio:615/526;"><image-slot id="work-{{ w.slug }}-func3" shape="rect" placeholder="Function shot 3"></image-slot></div></div>
-            <div style="padding:0 clamp(12px,1.2vw,16px);"><div style="width:100%;aspect-ratio:1250/526;"><image-slot id="work-{{ w.slug }}-env" shape="rect" placeholder="Environment shot"></image-slot></div></div>
-          </section>
-          <section style="display:flex;flex-direction:column;gap:clamp(28px,3.9vw,50px);">
-            <div style="padding:0 clamp(20px,11vw,142px);display:flex;justify-content:space-between;align-items:baseline;font-size:18px;font-weight:500;"><span>How to Use</span><span style="font-family:'IBM Plex Mono',monospace;font-size:14px;">08</span></div>
-            <div style="padding:0 clamp(12px,1.2vw,16px);"><div style="width:100%;aspect-ratio:1250/526;"><image-slot id="work-{{ w.slug }}-howto" shape="rect" placeholder="사용 시나리오"></image-slot></div></div>
-            <div style="padding:0 clamp(12px,1.2vw,16px);"><div style="width:100%;aspect-ratio:1250/640;"><image-slot id="work-{{ w.slug }}-video-func" shape="rect" placeholder="Functional video — 제품 사용성"></image-slot></div></div>
-          </section>
-          <section style="display:flex;flex-direction:column;gap:clamp(28px,3.9vw,50px);">
-            <div style="padding:0 clamp(20px,11vw,142px);display:flex;justify-content:space-between;align-items:baseline;font-size:18px;font-weight:500;"><span>Process</span><span style="font-family:'IBM Plex Mono',monospace;font-size:14px;">09</span></div>
-            <div style="padding:0 clamp(12px,1.2vw,16px);"><div style="width:100%;aspect-ratio:1250/835;"><image-slot id="work-{{ w.slug }}-process" shape="rect" placeholder="Sketch / mock-up process"></image-slot></div></div>
-            <div style="padding:0 clamp(12px,1.2vw,16px);display:grid;grid-template-columns:{{ pairCols }};gap:clamp(10px,1.6vw,20px);"><div style="width:100%;aspect-ratio:614/564;"><image-slot id="work-{{ w.slug }}-process2" shape="rect" placeholder="Process"></image-slot></div><div style="width:100%;aspect-ratio:614/564;"><image-slot id="work-{{ w.slug }}-process3" shape="rect" placeholder="Process"></image-slot></div></div>
-          </section>
-          <div style="padding:0 clamp(12px,1.2vw,16px);"><div style="width:100%;aspect-ratio:1250/1274;"><image-slot id="work-{{ w.slug }}-outro" shape="rect" placeholder="Summary shot (outro)"></image-slot></div></div>
-          <div style="padding:0 clamp(12px,1.2vw,16px);">
+          </sc-for>
+          <div style="padding:clamp(56px,7.8vw,100px) clamp(12px,1.2vw,16px) 0;">
           <nav style="display:grid;grid-template-columns:{{ pagerCols }};gap:24px;padding:32px clamp(8px,4vw,40px) clamp(48px,6vw,80px);border-top:1px solid #111;">
             <a href="#/work/{{ w.prevSlug }}" onClick="{{ w.goPrev }}" style="display:flex;flex-direction:column;gap:8px;cursor:pointer;">
               <span style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.06em;color:#6b6b6b;">← PREV</span>
@@ -380,12 +337,43 @@ const WORKS = [
   { slug: 'son-hanyoung', tagline: '미정', title: '미정', subtitle: '미정', designer: '손한영', designerEn: 'Son Hanyoung', type: '미정', material: '미정', lead: '미정', body: '미정' },
   { slug: 'nam-jeheon', tagline: '미정', title: '미정', subtitle: '미정', designer: '남제헌', designerEn: 'Nam Jeheon', type: '미정', material: '미정', lead: '미정', body: '미정' },
   { slug: 'kwak-hoyoung', tagline: '미정', title: '미정', subtitle: '미정', designer: '곽호영', designerEn: 'Kwak Hoyoung', type: '미정', material: '미정', lead: '미정', body: '미정' },
-  { slug: 'park-geonhwa', tagline: '미정', title: '미정', subtitle: '미정', designer: '박건화', designerEn: 'Park Geonhwa', type: '미정', material: '미정', lead: '미정', body: '미정' },
+  { slug: 'park-geonhwa', tagline: 'Ask your robot, Pimo!', title: 'Pimo', subtitle: 'AI 감정케어를 물리적 경험으로 확장하는 이동형 반려 로봇', designer: '박건화', designerEn: 'Park Geonhwa', type: '미정', material: '미정', lead: '피모는 Z세대의 일상에 자연스럽게 함께하며, 주름과 햅틱을 통해 보이지 않는 감정을 가장 물리적인 감각으로', body: '표현하고 교감하는 새로운 감정 케어 경험을 제안합니다.' },
   { slug: 'kim-taeyeon', tagline: '미정', title: '미정', subtitle: '미정', designer: '김태연', designerEn: 'Kim Taeyeon', type: '미정', material: '미정', lead: '미정', body: '미정' },
   { slug: 'lee-yubin', tagline: '미정', title: '미정', subtitle: '미정', designer: '이유빈', designerEn: 'Lee Yubin', type: '미정', material: '미정', lead: '미정', body: '미정' },
   { slug: 'choi-yewon', tagline: '미정', title: '미정', subtitle: '미정', designer: '최예원', designerEn: 'Choi Yewon', type: '미정', material: '미정', lead: '미정', body: '미정' },
 ].map(w => ({ ...w, email: EMAILS[w.designer] || '' }))
  .sort((a, b) => ORDER.indexOf(a.designer) - ORDER.indexOf(b.designer));
+
+const DEFAULT_BLOCKS = [
+  { type: 'image', src: 'assets/works/{slug}/01.jpg', label: '대표 이미지', full: true },
+  { type: 'video', src: 'assets/works/{slug}/intro.mp4', label: '인트로 영상 (mp4) 또는 YouTube/Vimeo' },
+  { type: 'section', label: 'Background' },
+  { type: 'text', title: '배경 제목을 한 줄로 적어주세요', body: '프로젝트를 시작하게 된 사회적·환경적 맥락을 간결하게 적어주세요.' },
+  { type: 'images', items: [{ src: 'assets/works/{slug}/02.jpg' }, { src: 'assets/works/{slug}/03.jpg' }] },
+  { type: 'section', label: 'Painpoint' },
+  { type: 'text', body: '현재 사용 경험에서 발견한 문제와 한계를 적어주세요.' },
+  { type: 'images', items: [{ src: 'assets/works/{slug}/04.jpg' }, { src: 'assets/works/{slug}/05.jpg' }] },
+  { type: 'section', label: 'Discover' },
+  { type: 'text', body: '리서치 과정에서 발견한 내용을 적어주세요.' },
+  { type: 'image', src: 'assets/works/{slug}/06.jpg' },
+  { type: 'section', label: 'Solution' },
+  { type: 'text', title: '솔루션 제목을 한 줄로 적어주세요', body: '리서치와 이어지는 해결 방향을 적어주세요.' },
+  { type: 'image', src: 'assets/works/{slug}/07.jpg' },
+  { type: 'section', label: 'Concept' },
+  { type: 'text', title: '컨셉을 한 줄로 적어주세요', body: '컨셉 설명을 적어주세요.', align: 'center', size: 'large' },
+  { type: 'image', src: 'assets/works/{slug}/08.jpg', full: true },
+  { type: 'section', label: 'Product' },
+  { type: 'images', items: [{ src: 'assets/works/{slug}/09.jpg' }, { src: 'assets/works/{slug}/10.jpg' }] },
+  { type: 'image', src: 'assets/works/{slug}/11.jpg' },
+  { type: 'section', label: 'How to Use' },
+  { type: 'video', src: 'assets/works/{slug}/howto.mp4', label: '사용 영상' },
+  { type: 'section', label: 'Process' },
+  { type: 'image', src: 'assets/works/{slug}/12.jpg' },
+  { type: 'images', items: [{ src: 'assets/works/{slug}/13.jpg' }, { src: 'assets/works/{slug}/14.jpg' }] },
+  { type: 'image', src: 'assets/works/{slug}/15.jpg', label: '마무리 이미지' }
+];
+const ytId = (v) => { const m = String(v).match(/(?:youtu\.be\/|v=|embed\/|shorts\/)([\w-]{6,})/); return m ? m[1] : String(v); };
+const vmId = (v) => { const m = String(v).match(/(\d{6,})/); return m ? m[1] : String(v); };
 
 const KEYWORDS = [{en:'Keyword 01',ko:'키워드 설명'},{en:'Keyword 02',ko:'키워드 설명'},{en:'Keyword 03',ko:'키워드 설명'},{en:'Keyword 04',ko:'키워드 설명'},{en:'Keyword 05',ko:'키워드 설명'},{en:'Keyword 06',ko:'키워드 설명'}];
 
@@ -439,7 +427,63 @@ class Component extends DCLogic {
       e('path', { d: A, fill, style: { transition: 'fill .7s ease' } },
         e('animate', { key: go ? 'fast' : 'slow', attributeName: 'd', dur: go ? '0.28s' : '1.4s', repeatCount: 'indefinite', values: A + ';' + B + ';' + A, calcMode: 'spline', keyTimes: '0;0.5;1', keySplines: '.45 0 .55 1;.45 0 .55 1' })));
   }
+
+  markBroken(key) { if (!(this.state.mediaBroken || {})[key]) this.setState(s => ({ mediaBroken: { ...(s.mediaBroken || {}), [key]: true } })); }
+  preload(key, path) {
+    this._pl = this._pl || {}; if (this._pl[key] === path) return; this._pl[key] = path;
+    const im = new Image();
+    im.onload = () => this.setState(s => ({ mediaLoaded: { ...(s.mediaLoaded || {}), [key]: true } }));
+    im.onerror = () => this.markBroken(key);
+    im.src = path;
+  }
+  buildBlocks(slug) {
+    if (!this.state.contentReady) return [];
+    const src = ((this.state.content || {})[slug]) || DEFAULT_BLOCKS;
+    const broken = this.state.mediaBroken || {}, loaded = this.state.mediaLoaded || {};
+    const BIG = 'clamp(56px,7.8vw,100px)', MID = 'clamp(24px,3vw,40px)', MED = 'clamp(28px,3.9vw,50px)', TIGHT = 'clamp(10px,1.6vw,20px)';
+    let sec = 0, inSec = false, prev = null;
+    return src.map((raw, i) => {
+      const b = { ...raw }; const t = b.type;
+      const isSection = t === 'section', isText = t === 'text', isMedia = t === 'image' || t === 'images' || t === 'video';
+      let pt;
+      if (i === 0 || isSection || !inSec) pt = BIG;
+      else if (isText) pt = MID;
+      else if (prev && (prev.type === 'image' || prev.type === 'images' || prev.type === 'video')) pt = TIGHT;
+      else pt = MED;
+      if (isSection) { inSec = true; sec++; }
+      prev = b;
+      const out = { pt, isSection, isText, isMedia, label: b.label || '', no: b.no || String(sec).padStart(2, '0') };
+      if (isText) Object.assign(out, { title: b.title || '', body: b.body || '', hasTitle: !!b.title, hasBody: !!b.body, align: b.align === 'center' ? 'center' : 'flex-start', textAlign: b.align === 'center' ? 'center' : 'left', titleSize: b.size === 'large' ? 'clamp(28px,2.9vw,37px)' : '19px', bodyMax: b.align === 'center' ? '620px' : '996px' });
+      if (isMedia) {
+        const list = t === 'images' ? (b.items || []) : [b];
+        const n = Math.max(1, Math.min(list.length, b.cols || list.length));
+        out.cols = this.state.mobile ? 'minmax(0,1fr)' : 'repeat(' + n + ', minmax(0,1fr))';
+        out.inset = b.full ? '0' : '0 clamp(12px,1.2vw,16px)';
+        out.items = list.map((m, j) => {
+          const path = m.src ? String(m.src).replace(/\{slug\}/g, slug) : '';
+          const key = slug + ':' + (path || m.youtube || m.vimeo || (i + ':' + j));
+          const isVidFile = t === 'video' || /\.(mp4|webm|mov)(\?|$)/i.test(path);
+          let embed = '';
+          if (m.youtube) embed = 'https://www.youtube-nocookie.com/embed/' + ytId(m.youtube) + '?rel=0';
+          else if (m.vimeo) embed = 'https://player.vimeo.com/video/' + vmId(m.vimeo);
+          const dead = broken[key] || (!path && !embed);
+          const auto = !!m.autoplay;
+          if (path && !embed && !isVidFile && !dead && !loaded[key]) this.preload(key, path);
+          return {
+            src: path, alt: m.alt || m.caption || '', poster: m.poster ? String(m.poster).replace(/\{slug\}/g, slug) : undefined,
+            showImg: !dead && !embed && !isVidFile && !!loaded[key], showPh: (dead && !embed) || (!dead && !embed && !isVidFile && !loaded[key]), vref: (el) => { if (el && !el._dcErr) { el._dcErr = 1; el.addEventListener('error', () => this.markBroken(key)); } }, isVideo: !dead && !embed && isVidFile, isEmbed: !!embed, isEmpty: dead && !embed,
+            embed, ratio: m.ratio || (embed ? '16/9' : (list.length > 1 ? '4/3' : '16/9')),
+            controls: !auto, autoplay: auto, muted: auto, loop: auto,
+            label: m.label || (isVidFile ? '영상' : '이미지'), hint: path || '파일 경로를 넣어주세요',
+            caption: m.caption || '', hasCaption: !!m.caption,
+          };
+        });
+      }
+      return out;
+    });
+  }
   componentDidMount() {
+    fetch('works.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(j => { this.setState(j && typeof j === 'object' ? { content: j, contentReady: true } : { contentReady: true }); }).catch(() => this.setState({ contentReady: true }));
     this._mq = () => { const m = window.innerWidth < 640; if (m !== this.state.mobile) this.setState({ mobile: m }); };
     window.addEventListener('resize', this._mq);
 
@@ -506,6 +550,7 @@ class Component extends DCLogic {
       return {
         ...x, no: String(i + 1).padStart(2, '0'),
         isCurrent: p === 'detail' && route.slug === x.slug,
+        blocks: p === 'detail' && route.slug === x.slug ? this.buildBlocks(x.slug) : [],
         open: this.nav('#/work/' + x.slug),
         onEnter: () => { if (this.hoverOn && this.state.hover !== x.slug) this.setState({ hover: x.slug }); },
         dim: this.hoverOn && this.state.hover && this.state.hover !== x.slug ? 0.25 : 1,
