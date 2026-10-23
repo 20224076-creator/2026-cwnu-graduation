@@ -1,0 +1,1162 @@
+{
+  "park-geonhwa": [
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/01.jpg",
+      "label": "대표 이미지",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "assets/works/park-geonhwa/intro.mp4",
+      "label": "인트로 영상 (mp4) 또는 YouTube/Vimeo"
+    },
+    {
+      "type": "section",
+      "label": "Background"
+    },
+    {
+      "type": "text",
+      "title": "배경 제목을 한 줄로 적어주세요",
+      "body": "프로젝트를 시작하게 된 사회적·환경적 맥락을 간결하게 적어주세요."
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/park-geonhwa/02.jpg"
+        },
+        {
+          "src": "assets/works/park-geonhwa/03.jpg"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "label": "Painpoint"
+    },
+    {
+      "type": "text",
+      "body": "현재 사용 경험에서 발견한 문제와 한계를 적어주세요."
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/park-geonhwa/04.jpg"
+        },
+        {
+          "src": "assets/works/park-geonhwa/05.jpg"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "label": "Discover"
+    },
+    {
+      "type": "text",
+      "body": "리서치 과정에서 발견한 내용을 적어주세요."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/06.jpg"
+    },
+    {
+      "type": "section",
+      "label": "Solution"
+    },
+    {
+      "type": "text",
+      "title": "솔루션 제목을 한 줄로 적어주세요",
+      "body": "리서치와 이어지는 해결 방향을 적어주세요."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/07.jpg"
+    },
+    {
+      "type": "section",
+      "label": "Concept"
+    },
+    {
+      "type": "text",
+      "title": "컨셉을 한 줄로 적어주세요",
+      "body": "컨셉 설명을 적어주세요.",
+      "align": "center",
+      "size": "large"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/08.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Product"
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/park-geonhwa/09.jpg"
+        },
+        {
+          "src": "assets/works/park-geonhwa/10.jpg"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/11.jpg"
+    },
+    {
+      "type": "section",
+      "label": "How to Use"
+    },
+    {
+      "type": "video",
+      "src": "assets/works/park-geonhwa/howto.mp4",
+      "label": "사용 영상"
+    },
+    {
+      "type": "section",
+      "label": "Process"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/12.jpg"
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/park-geonhwa/13.jpg"
+        },
+        {
+          "src": "assets/works/park-geonhwa/14.jpg"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/15.jpg",
+      "label": "마무리 이미지"
+    }
+  ],
+  "lee-yubin": [
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/01.jpg",
+      "label": "대표 이미지",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "assets/works/lee-yubin/intro.mp4",
+      "label": "인트로 영상 (mp4) 또는 YouTube/Vimeo"
+    },
+    {
+      "type": "section",
+      "label": "Background"
+    },
+    {
+      "type": "text",
+      "title": "배경 제목을 한 줄로 적어주세요",
+      "body": "프로젝트를 시작하게 된 사회적·환경적 맥락을 간결하게 적어주세요."
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/lee-yubin/02.jpg"
+        },
+        {
+          "src": "assets/works/lee-yubin/03.jpg"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "label": "Painpoint"
+    },
+    {
+      "type": "text",
+      "body": "현재 사용 경험에서 발견한 문제와 한계를 적어주세요."
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/lee-yubin/04.jpg"
+        },
+        {
+          "src": "assets/works/lee-yubin/05.jpg"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "label": "Discover"
+    },
+    {
+      "type": "text",
+      "body": "리서치 과정에서 발견한 내용을 적어주세요."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/06.jpg"
+    },
+    {
+      "type": "section",
+      "label": "Solution"
+    },
+    {
+      "type": "text",
+      "title": "솔루션 제목을 한 줄로 적어주세요",
+      "body": "리서치와 이어지는 해결 방향을 적어주세요."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/07.jpg"
+    },
+    {
+      "type": "section",
+      "label": "Concept"
+    },
+    {
+      "type": "text",
+      "title": "컨셉을 한 줄로 적어주세요",
+      "body": "컨셉 설명을 적어주세요.",
+      "align": "center",
+      "size": "large"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/08.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Product"
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/lee-yubin/09.jpg"
+        },
+        {
+          "src": "assets/works/lee-yubin/10.jpg"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/11.jpg"
+    },
+    {
+      "type": "section",
+      "label": "How to Use"
+    },
+    {
+      "type": "video",
+      "src": "assets/works/lee-yubin/howto.mp4",
+      "label": "사용 영상"
+    },
+    {
+      "type": "section",
+      "label": "Process"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/12.jpg"
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/lee-yubin/13.jpg"
+        },
+        {
+          "src": "assets/works/lee-yubin/14.jpg"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/15.jpg",
+      "label": "마무리 이미지"
+    }
+  ],
+  "kim-taeyeon": [
+    {
+      "type": "image",
+      "src": "assets/works/kim-taeyeon/01.jpg",
+      "label": "대표 이미지",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "assets/works/kim-taeyeon/intro.mp4",
+      "label": "인트로 영상 (mp4) 또는 YouTube/Vimeo"
+    },
+    {
+      "type": "section",
+      "label": "Background"
+    },
+    {
+      "type": "text",
+      "title": "배경 제목을 한 줄로 적어주세요",
+      "body": "프로젝트를 시작하게 된 사회적·환경적 맥락을 간결하게 적어주세요."
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/kim-taeyeon/02.jpg"
+        },
+        {
+          "src": "assets/works/kim-taeyeon/03.jpg"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "label": "Painpoint"
+    },
+    {
+      "type": "text",
+      "body": "현재 사용 경험에서 발견한 문제와 한계를 적어주세요."
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/kim-taeyeon/04.jpg"
+        },
+        {
+          "src": "assets/works/kim-taeyeon/05.jpg"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "label": "Discover"
+    },
+    {
+      "type": "text",
+      "body": "리서치 과정에서 발견한 내용을 적어주세요."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kim-taeyeon/06.jpg"
+    },
+    {
+      "type": "section",
+      "label": "Solution"
+    },
+    {
+      "type": "text",
+      "title": "솔루션 제목을 한 줄로 적어주세요",
+      "body": "리서치와 이어지는 해결 방향을 적어주세요."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kim-taeyeon/07.jpg"
+    },
+    {
+      "type": "section",
+      "label": "Concept"
+    },
+    {
+      "type": "text",
+      "title": "컨셉을 한 줄로 적어주세요",
+      "body": "컨셉 설명을 적어주세요.",
+      "align": "center",
+      "size": "large"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kim-taeyeon/08.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Product"
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/kim-taeyeon/09.jpg"
+        },
+        {
+          "src": "assets/works/kim-taeyeon/10.jpg"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kim-taeyeon/11.jpg"
+    },
+    {
+      "type": "section",
+      "label": "How to Use"
+    },
+    {
+      "type": "video",
+      "src": "assets/works/kim-taeyeon/howto.mp4",
+      "label": "사용 영상"
+    },
+    {
+      "type": "section",
+      "label": "Process"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kim-taeyeon/12.jpg"
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/kim-taeyeon/13.jpg"
+        },
+        {
+          "src": "assets/works/kim-taeyeon/14.jpg"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kim-taeyeon/15.jpg",
+      "label": "마무리 이미지"
+    }
+  ],
+  "nam-jeheon": [
+    {
+      "type": "image",
+      "src": "assets/works/nam-jeheon/01.jpg",
+      "label": "대표 이미지",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "assets/works/nam-jeheon/intro.mp4",
+      "label": "인트로 영상 (mp4) 또는 YouTube/Vimeo"
+    },
+    {
+      "type": "section",
+      "label": "Background"
+    },
+    {
+      "type": "text",
+      "title": "배경 제목을 한 줄로 적어주세요",
+      "body": "프로젝트를 시작하게 된 사회적·환경적 맥락을 간결하게 적어주세요."
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/nam-jeheon/02.jpg"
+        },
+        {
+          "src": "assets/works/nam-jeheon/03.jpg"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "label": "Painpoint"
+    },
+    {
+      "type": "text",
+      "body": "현재 사용 경험에서 발견한 문제와 한계를 적어주세요."
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/nam-jeheon/04.jpg"
+        },
+        {
+          "src": "assets/works/nam-jeheon/05.jpg"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "label": "Discover"
+    },
+    {
+      "type": "text",
+      "body": "리서치 과정에서 발견한 내용을 적어주세요."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/nam-jeheon/06.jpg"
+    },
+    {
+      "type": "section",
+      "label": "Solution"
+    },
+    {
+      "type": "text",
+      "title": "솔루션 제목을 한 줄로 적어주세요",
+      "body": "리서치와 이어지는 해결 방향을 적어주세요."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/nam-jeheon/07.jpg"
+    },
+    {
+      "type": "section",
+      "label": "Concept"
+    },
+    {
+      "type": "text",
+      "title": "컨셉을 한 줄로 적어주세요",
+      "body": "컨셉 설명을 적어주세요.",
+      "align": "center",
+      "size": "large"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/nam-jeheon/08.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Product"
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/nam-jeheon/09.jpg"
+        },
+        {
+          "src": "assets/works/nam-jeheon/10.jpg"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "src": "assets/works/nam-jeheon/11.jpg"
+    },
+    {
+      "type": "section",
+      "label": "How to Use"
+    },
+    {
+      "type": "video",
+      "src": "assets/works/nam-jeheon/howto.mp4",
+      "label": "사용 영상"
+    },
+    {
+      "type": "section",
+      "label": "Process"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/nam-jeheon/12.jpg"
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/nam-jeheon/13.jpg"
+        },
+        {
+          "src": "assets/works/nam-jeheon/14.jpg"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "src": "assets/works/nam-jeheon/15.jpg",
+      "label": "마무리 이미지"
+    }
+  ],
+  "kwak-hoyoung": [
+    {
+      "type": "image",
+      "src": "assets/works/kwak-hoyoung/01.jpg",
+      "label": "대표 이미지",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "assets/works/kwak-hoyoung/intro.mp4",
+      "label": "인트로 영상 (mp4) 또는 YouTube/Vimeo"
+    },
+    {
+      "type": "section",
+      "label": "Background"
+    },
+    {
+      "type": "text",
+      "title": "배경 제목을 한 줄로 적어주세요",
+      "body": "프로젝트를 시작하게 된 사회적·환경적 맥락을 간결하게 적어주세요."
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/kwak-hoyoung/02.jpg"
+        },
+        {
+          "src": "assets/works/kwak-hoyoung/03.jpg"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "label": "Painpoint"
+    },
+    {
+      "type": "text",
+      "body": "현재 사용 경험에서 발견한 문제와 한계를 적어주세요."
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/kwak-hoyoung/04.jpg"
+        },
+        {
+          "src": "assets/works/kwak-hoyoung/05.jpg"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "label": "Discover"
+    },
+    {
+      "type": "text",
+      "body": "리서치 과정에서 발견한 내용을 적어주세요."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kwak-hoyoung/06.jpg"
+    },
+    {
+      "type": "section",
+      "label": "Solution"
+    },
+    {
+      "type": "text",
+      "title": "솔루션 제목을 한 줄로 적어주세요",
+      "body": "리서치와 이어지는 해결 방향을 적어주세요."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kwak-hoyoung/07.jpg"
+    },
+    {
+      "type": "section",
+      "label": "Concept"
+    },
+    {
+      "type": "text",
+      "title": "컨셉을 한 줄로 적어주세요",
+      "body": "컨셉 설명을 적어주세요.",
+      "align": "center",
+      "size": "large"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kwak-hoyoung/08.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Product"
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/kwak-hoyoung/09.jpg"
+        },
+        {
+          "src": "assets/works/kwak-hoyoung/10.jpg"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kwak-hoyoung/11.jpg"
+    },
+    {
+      "type": "section",
+      "label": "How to Use"
+    },
+    {
+      "type": "video",
+      "src": "assets/works/kwak-hoyoung/howto.mp4",
+      "label": "사용 영상"
+    },
+    {
+      "type": "section",
+      "label": "Process"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kwak-hoyoung/12.jpg"
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/kwak-hoyoung/13.jpg"
+        },
+        {
+          "src": "assets/works/kwak-hoyoung/14.jpg"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kwak-hoyoung/15.jpg",
+      "label": "마무리 이미지"
+    }
+  ],
+  "jung-woohyun": [
+    {
+      "type": "image",
+      "src": "assets/works/jung-woohyun/01.jpg",
+      "label": "대표 이미지",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "assets/works/jung-woohyun/intro.mp4",
+      "label": "인트로 영상 (mp4) 또는 YouTube/Vimeo"
+    },
+    {
+      "type": "section",
+      "label": "Background"
+    },
+    {
+      "type": "text",
+      "title": "배경 제목을 한 줄로 적어주세요",
+      "body": "프로젝트를 시작하게 된 사회적·환경적 맥락을 간결하게 적어주세요."
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/jung-woohyun/02.jpg"
+        },
+        {
+          "src": "assets/works/jung-woohyun/03.jpg"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "label": "Painpoint"
+    },
+    {
+      "type": "text",
+      "body": "현재 사용 경험에서 발견한 문제와 한계를 적어주세요."
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/jung-woohyun/04.jpg"
+        },
+        {
+          "src": "assets/works/jung-woohyun/05.jpg"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "label": "Discover"
+    },
+    {
+      "type": "text",
+      "body": "리서치 과정에서 발견한 내용을 적어주세요."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/jung-woohyun/06.jpg"
+    },
+    {
+      "type": "section",
+      "label": "Solution"
+    },
+    {
+      "type": "text",
+      "title": "솔루션 제목을 한 줄로 적어주세요",
+      "body": "리서치와 이어지는 해결 방향을 적어주세요."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/jung-woohyun/07.jpg"
+    },
+    {
+      "type": "section",
+      "label": "Concept"
+    },
+    {
+      "type": "text",
+      "title": "컨셉을 한 줄로 적어주세요",
+      "body": "컨셉 설명을 적어주세요.",
+      "align": "center",
+      "size": "large"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/jung-woohyun/08.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Product"
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/jung-woohyun/09.jpg"
+        },
+        {
+          "src": "assets/works/jung-woohyun/10.jpg"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "src": "assets/works/jung-woohyun/11.jpg"
+    },
+    {
+      "type": "section",
+      "label": "How to Use"
+    },
+    {
+      "type": "video",
+      "src": "assets/works/jung-woohyun/howto.mp4",
+      "label": "사용 영상"
+    },
+    {
+      "type": "section",
+      "label": "Process"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/jung-woohyun/12.jpg"
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/jung-woohyun/13.jpg"
+        },
+        {
+          "src": "assets/works/jung-woohyun/14.jpg"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "src": "assets/works/jung-woohyun/15.jpg",
+      "label": "마무리 이미지"
+    }
+  ],
+  "son-hanyoung": [
+    {
+      "type": "image",
+      "src": "assets/works/son-hanyoung/01.jpg",
+      "label": "대표 이미지",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "assets/works/son-hanyoung/intro.mp4",
+      "label": "인트로 영상 (mp4) 또는 YouTube/Vimeo"
+    },
+    {
+      "type": "section",
+      "label": "Background"
+    },
+    {
+      "type": "text",
+      "title": "배경 제목을 한 줄로 적어주세요",
+      "body": "프로젝트를 시작하게 된 사회적·환경적 맥락을 간결하게 적어주세요."
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/son-hanyoung/02.jpg"
+        },
+        {
+          "src": "assets/works/son-hanyoung/03.jpg"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "label": "Painpoint"
+    },
+    {
+      "type": "text",
+      "body": "현재 사용 경험에서 발견한 문제와 한계를 적어주세요."
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/son-hanyoung/04.jpg"
+        },
+        {
+          "src": "assets/works/son-hanyoung/05.jpg"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "label": "Discover"
+    },
+    {
+      "type": "text",
+      "body": "리서치 과정에서 발견한 내용을 적어주세요."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/son-hanyoung/06.jpg"
+    },
+    {
+      "type": "section",
+      "label": "Solution"
+    },
+    {
+      "type": "text",
+      "title": "솔루션 제목을 한 줄로 적어주세요",
+      "body": "리서치와 이어지는 해결 방향을 적어주세요."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/son-hanyoung/07.jpg"
+    },
+    {
+      "type": "section",
+      "label": "Concept"
+    },
+    {
+      "type": "text",
+      "title": "컨셉을 한 줄로 적어주세요",
+      "body": "컨셉 설명을 적어주세요.",
+      "align": "center",
+      "size": "large"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/son-hanyoung/08.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Product"
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/son-hanyoung/09.jpg"
+        },
+        {
+          "src": "assets/works/son-hanyoung/10.jpg"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "src": "assets/works/son-hanyoung/11.jpg"
+    },
+    {
+      "type": "section",
+      "label": "How to Use"
+    },
+    {
+      "type": "video",
+      "src": "assets/works/son-hanyoung/howto.mp4",
+      "label": "사용 영상"
+    },
+    {
+      "type": "section",
+      "label": "Process"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/son-hanyoung/12.jpg"
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/son-hanyoung/13.jpg"
+        },
+        {
+          "src": "assets/works/son-hanyoung/14.jpg"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "src": "assets/works/son-hanyoung/15.jpg",
+      "label": "마무리 이미지"
+    }
+  ],
+  "choi-yewon": [
+    {
+      "type": "image",
+      "src": "assets/works/choi-yewon/01.jpg",
+      "label": "대표 이미지",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "assets/works/choi-yewon/intro.mp4",
+      "label": "인트로 영상 (mp4) 또는 YouTube/Vimeo"
+    },
+    {
+      "type": "section",
+      "label": "Background"
+    },
+    {
+      "type": "text",
+      "title": "배경 제목을 한 줄로 적어주세요",
+      "body": "프로젝트를 시작하게 된 사회적·환경적 맥락을 간결하게 적어주세요."
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/choi-yewon/02.jpg"
+        },
+        {
+          "src": "assets/works/choi-yewon/03.jpg"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "label": "Painpoint"
+    },
+    {
+      "type": "text",
+      "body": "현재 사용 경험에서 발견한 문제와 한계를 적어주세요."
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/choi-yewon/04.jpg"
+        },
+        {
+          "src": "assets/works/choi-yewon/05.jpg"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "label": "Discover"
+    },
+    {
+      "type": "text",
+      "body": "리서치 과정에서 발견한 내용을 적어주세요."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/choi-yewon/06.jpg"
+    },
+    {
+      "type": "section",
+      "label": "Solution"
+    },
+    {
+      "type": "text",
+      "title": "솔루션 제목을 한 줄로 적어주세요",
+      "body": "리서치와 이어지는 해결 방향을 적어주세요."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/choi-yewon/07.jpg"
+    },
+    {
+      "type": "section",
+      "label": "Concept"
+    },
+    {
+      "type": "text",
+      "title": "컨셉을 한 줄로 적어주세요",
+      "body": "컨셉 설명을 적어주세요.",
+      "align": "center",
+      "size": "large"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/choi-yewon/08.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Product"
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/choi-yewon/09.jpg"
+        },
+        {
+          "src": "assets/works/choi-yewon/10.jpg"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "src": "assets/works/choi-yewon/11.jpg"
+    },
+    {
+      "type": "section",
+      "label": "How to Use"
+    },
+    {
+      "type": "video",
+      "src": "assets/works/choi-yewon/howto.mp4",
+      "label": "사용 영상"
+    },
+    {
+      "type": "section",
+      "label": "Process"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/choi-yewon/12.jpg"
+    },
+    {
+      "type": "images",
+      "items": [
+        {
+          "src": "assets/works/choi-yewon/13.jpg"
+        },
+        {
+          "src": "assets/works/choi-yewon/14.jpg"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "src": "assets/works/choi-yewon/15.jpg",
+      "label": "마무리 이미지"
+    }
+  ]
+}
