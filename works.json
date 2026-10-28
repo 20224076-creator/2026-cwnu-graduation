@@ -126,14 +126,20 @@
       "full": true
     },
     {
-      "type": "image",
-      "src": "assets/works/park-geonhwa/g23.gif",
-      "full": true
+      "type": "video",
+      "src": "assets/works/park-geonhwa/v23.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
     },
     {
-      "type": "image",
-      "src": "assets/works/park-geonhwa/g24.gif",
-      "full": true
+      "type": "video",
+      "src": "assets/works/park-geonhwa/v24.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
     },
     {
       "type": "image",
@@ -154,14 +160,20 @@
       "full": true
     },
     {
-      "type": "image",
-      "src": "assets/works/park-geonhwa/g28.gif",
-      "full": true
+      "type": "video",
+      "src": "assets/works/park-geonhwa/v28.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
     },
     {
-      "type": "image",
-      "src": "assets/works/park-geonhwa/g29.gif",
-      "full": true
+      "type": "video",
+      "src": "assets/works/park-geonhwa/v29.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
     },
     {
       "type": "section",
@@ -172,14 +184,29 @@
       "body": "피모는 IoT 하우스와 연동해 조명과 가전제품을 제어하고, 일상에 맞춰 집 안의 분위기까지 바꿔준답니다!"
     },
     {
-      "type": "image",
-      "src": "assets/works/park-geonhwa/g31.gif",
-      "full": true
+      "type": "video",
+      "src": "assets/works/park-geonhwa/v31.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "video",
+      "src": "assets/works/park-geonhwa/v32.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
     },
     {
       "type": "image",
       "src": "assets/works/park-geonhwa/p33.jpg",
       "full": true
+    },
+    {
+      "type": "video",
+      "youtube": "https://youtu.be/-3JkvaHkBRU"
     },
     {
       "type": "image",
