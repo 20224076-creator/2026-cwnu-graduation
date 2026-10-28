@@ -104,6 +104,15 @@
       "align": "center"
     },
     {
+      "type": "video",
+      "src": "assets/works/park-geonhwa/pimo-intro.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false,
+      "full": true
+    },
+    {
       "type": "section",
       "label": "Inspiration"
     },
@@ -217,14 +226,12 @@
   "lee-yubin": [
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/01.jpg",
-      "label": "대표 이미지",
+      "src": "assets/works/lee-yubin/p02.jpg",
       "full": true
     },
     {
       "type": "video",
-      "src": "assets/works/lee-yubin/intro.mp4",
-      "label": "인트로 영상 (mp4) 또는 YouTube/Vimeo"
+      "youtube": "https://youtu.be/VGppH1ZXnPY"
     },
     {
       "type": "section",
@@ -232,19 +239,13 @@
     },
     {
       "type": "text",
-      "title": "배경 제목을 한 줄로 적어주세요",
-      "body": "프로젝트를 시작하게 된 사회적·환경적 맥락을 간결하게 적어주세요."
+      "title": "From solo creation to shared experience",
+      "body": "작곡은 기술의 발전과 함께 전문가의 영역을 넘어 누구나 즐길 수 있는 일상적 창작 활동으로 확장되고 있습니다.\n이제 음악 창작은 결과를 완성하는 것뿐 아니라, 서로의 아이디어와 반응을 주고받으며 함께 만들어가는 과정 자체를 즐기는 경험으로 변화하고 있습니다."
     },
     {
-      "type": "images",
-      "items": [
-        {
-          "src": "assets/works/lee-yubin/02.jpg"
-        },
-        {
-          "src": "assets/works/lee-yubin/03.jpg"
-        }
-      ]
+      "type": "image",
+      "src": "assets/works/lee-yubin/p05.jpg",
+      "full": true
     },
     {
       "type": "section",
@@ -252,43 +253,26 @@
     },
     {
       "type": "text",
-      "body": "현재 사용 경험에서 발견한 문제와 한계를 적어주세요."
-    },
-    {
-      "type": "images",
-      "items": [
-        {
-          "src": "assets/works/lee-yubin/04.jpg"
-        },
-        {
-          "src": "assets/works/lee-yubin/05.jpg"
-        }
-      ]
-    },
-    {
-      "type": "section",
-      "label": "Discover"
-    },
-    {
-      "type": "text",
-      "body": "리서치 과정에서 발견한 내용을 적어주세요."
+      "body": "음악 창작의 진입장벽은 낮아졌지만, 기존 작곡 경험은 여전히 개인 작업 중심에 머물러 있습니다.\n혼자 만드는 과정에서 흥미가 쉽게 떨어지고, 함께 작업할 때는 실력 차이와 역할 부담으로 인해 자연스러운 협업이 어렵습니다."
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/06.jpg"
+      "src": "assets/works/lee-yubin/p07.jpg",
+      "full": true
     },
     {
       "type": "section",
-      "label": "Solution"
+      "label": "Project goal"
     },
     {
       "type": "text",
-      "title": "솔루션 제목을 한 줄로 적어주세요",
-      "body": "리서치와 이어지는 해결 방향을 적어주세요."
+      "title": "서로 다른 두 사람을 하나의 흐름으로",
+      "body": "서로 다른 실력과 아이디어를 가진 두 사용자가 각자의 디바이스로 연주하면, AI가 리듬과 코드, 멜로디를 실시간으로 조율해 하나의 음악적 흐름으로 연결합니다. 물리적 조작과 햅틱 피드백을 통해 화면 중심이 아닌 함께 만들고 반응하는 창작 경험을 제공합니다."
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/07.jpg"
+      "src": "assets/works/lee-yubin/p09.jpg",
+      "full": true
     },
     {
       "type": "section",
@@ -296,80 +280,186 @@
     },
     {
       "type": "text",
-      "title": "컨셉을 한 줄로 적어주세요",
-      "body": "컨셉 설명을 적어주세요.",
+      "title": "Tune Your Sound, Together.",
+      "body": "TUNIT은 두 사용자가 각자의 디바이스로 음악을 만들며, AI가 리듬과 코드, 멜로디를 실시간으로 조율해 서로의 아이디어가 자연스럽게 이어지도록 돕습니다.\n커스터마이징 가능한 모듈과 햅틱 인터랙션을 통해 음악을 손끝으로 주고받으며 함께 만들어가는 새로운 공동창작 경험을 제안합니다.",
       "align": "center",
       "size": "large"
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/08.jpg",
+      "src": "assets/works/lee-yubin/p11.jpg",
       "full": true
+    },
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/p12.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Core Value"
+    },
+    {
+      "type": "video",
+      "youtube": "https://youtu.be/NmOjTDJ9QyA"
+    },
+    {
+      "type": "text",
+      "title": "어디서든 시작되고, 함께 이어지는 음악",
+      "body": "TUNIT은 휴대 가능한 디바이스와 커스터마이징 모듈을 통해 장소에 구애받지 않고 언제든 창작을 시작할 수 있습니다.\n두 사용자의 아이디어를 AI가 자연스럽게 조율해, 서로의 반응을 주고받으며 함께 음악을 만들어가는 새로운 공동창작 경험을 제안합니다.",
+      "align": "center"
+    },
+    {
+      "type": "video",
+      "youtube": "https://youtu.be/4bFyVJjMbUk"
     },
     {
       "type": "section",
       "label": "Product"
     },
     {
-      "type": "images",
-      "items": [
-        {
-          "src": "assets/works/lee-yubin/09.jpg"
-        },
-        {
-          "src": "assets/works/lee-yubin/10.jpg"
-        }
-      ]
+      "type": "image",
+      "src": "assets/works/lee-yubin/p18.jpg",
+      "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/11.jpg"
-    },
-    {
-      "type": "section",
-      "label": "How to Use"
+      "src": "assets/works/lee-yubin/p19.jpg",
+      "full": true
     },
     {
       "type": "video",
-      "src": "assets/works/lee-yubin/howto.mp4",
-      "label": "사용 영상"
+      "youtube": "https://youtu.be/lhhzokZ2o5I"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/p21.jpg",
+      "full": true
+    },
+    {
+      "type": "text",
+      "title": "Percussion Instrument",
+      "body": "A tactile percussion interface, built with cubes\n큐브 모듈을 장착하고 직접 탭하며, 진동과 촉각을 통해 리듬을 느낄 수 있습니다."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/p23.jpg",
+      "full": true
+    },
+    {
+      "type": "text",
+      "title": "String Instrument",
+      "body": "A side-played string interface for melody\n제품의 옆면을 현악기처럼 쓸어 연주하며, 자연스러운 멜로디의 흐름과 표현을 만들어낼 수 있습니다."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/p25.jpg",
+      "full": true
     },
     {
       "type": "section",
-      "label": "Process"
+      "label": "Detail"
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/12.jpg"
-    },
-    {
-      "type": "images",
-      "items": [
-        {
-          "src": "assets/works/lee-yubin/13.jpg"
-        },
-        {
-          "src": "assets/works/lee-yubin/14.jpg"
-        }
-      ]
+      "src": "assets/works/lee-yubin/p27.jpg",
+      "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/15.jpg",
-      "label": "마무리 이미지"
+      "src": "assets/works/lee-yubin/p28.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/p29.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/p30.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Branding"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/p32.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/p33.jpg",
+      "full": true
+    },
+    {
+      "type": "text",
+      "title": "Key Visual",
+      "body": "Your Sound, Shared Rhythm: tunit turns every tap into a shared beat. Lime and deep brown, sound rings and waveforms show separate sounds becoming one flow.\ntunit의 키비주얼은 각자의 소리가 하나의 흐름으로 이어지는 순간을 담았습니다. 라임과 딥 브라운 컬러, 원형 사운드 링과 웨이브 그래픽으로 서로 다른 역할이 하나의 리듬이 되는 과정을 표현했습니다."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/p35.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/p36.jpg",
+      "full": true
+    },
+    {
+      "type": "text",
+      "title": "Brand Color",
+      "body": "TUNIT blends vivid lime with grounded neutrals to express playful connection and tactile creativity.\nTUNIT은 선명한 라임과 차분한 뉴트럴 컬러를 조합해, 함께 만드는 즐거움과 손으로 느끼는 창작 경험을 표현합니다.\n라임은 연결과 상호작용의 순간을 강조하고, 올리브·브라운·그레이는 제품의 안정적이고 촉각적인 기반을 형성합니다."
+    },
+    {
+      "type": "video",
+      "youtube": "https://youtu.be/0D9C5tzPcwY"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/p39.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/p40.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "UXUI"
+    },
+    {
+      "type": "video",
+      "youtube": "https://youtu.be/oo6gCrE1jrM"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/p43.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "assets/works/lee-yubin/p44.jpg",
+      "full": true
     }
   ],
   "kim-taeyeon": [
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/01.jpg",
-      "label": "대표 이미지",
+      "src": "assets/works/kim-taeyeon/p02.jpg",
       "full": true
     },
     {
       "type": "video",
-      "src": "assets/works/kim-taeyeon/intro.mp4",
-      "label": "인트로 영상 (mp4) 또는 YouTube/Vimeo"
+      "src": "assets/works/kim-taeyeon/v03.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
     },
     {
       "type": "section",
@@ -377,19 +467,13 @@
     },
     {
       "type": "text",
-      "title": "배경 제목을 한 줄로 적어주세요",
-      "body": "프로젝트를 시작하게 된 사회적·환경적 맥락을 간결하게 적어주세요."
+      "title": "안면케어를 넘어, 헤어와 두피케어의 확장으로",
+      "body": "뷰티 산업은 외적인 꾸밈을 넘어 건강과 본연의 아름다움을 관리하는 방향으로 변화하고 있으며, 이러한 흐름은 안면 중심에서 두피케어 영역으로 확장되고 있습니다.\n특히, 국내 탈모환자의 수가 증가하는 추세를 보이며 두피를 얼굴 피부처럼 관리한다는 ‘스키니피케이션’ 현상 또한 함께 부상하고 있습니다."
     },
     {
-      "type": "images",
-      "items": [
-        {
-          "src": "assets/works/kim-taeyeon/02.jpg"
-        },
-        {
-          "src": "assets/works/kim-taeyeon/03.jpg"
-        }
-      ]
+      "type": "image",
+      "src": "assets/works/kim-taeyeon/p05.jpg",
+      "full": true
     },
     {
       "type": "section",
@@ -397,18 +481,12 @@
     },
     {
       "type": "text",
-      "body": "현재 사용 경험에서 발견한 문제와 한계를 적어주세요."
+      "body": "신체 내 직접 확인이 어려운 부위 중 하나는 ‘두피’로 자가진단만으로는 오진의 가능성이 있기에 전문 기관의 의존도가 높습니다.\n이에 따라, 개인의 두피 상태에 맞는 지속적인 예방과 관리에는 한계가 존재합니다."
     },
     {
-      "type": "images",
-      "items": [
-        {
-          "src": "assets/works/kim-taeyeon/04.jpg"
-        },
-        {
-          "src": "assets/works/kim-taeyeon/05.jpg"
-        }
-      ]
+      "type": "image",
+      "src": "assets/works/kim-taeyeon/p07.jpg",
+      "full": true
     },
     {
       "type": "section",
@@ -416,11 +494,12 @@
     },
     {
       "type": "text",
-      "body": "리서치 과정에서 발견한 내용을 적어주세요."
+      "body": "전문기관용 두피진단 디바이스와 두피 관련 홈 케어 디바이스가 존재하고 있지만 각각 따로 이루어져있으며,\n정확한 진료와 치료가 목적이라면 가정이 아닌 의료기관에서 진료와 치료를 해야하기에 시간적, 경제적으로 큰 불편함을 초래합니다."
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/06.jpg"
+      "src": "assets/works/kim-taeyeon/p09.jpg",
+      "full": true
     },
     {
       "type": "section",
@@ -428,12 +507,13 @@
     },
     {
       "type": "text",
-      "title": "솔루션 제목을 한 줄로 적어주세요",
-      "body": "리서치와 이어지는 해결 방향을 적어주세요."
+      "title": "두피케어를 전문 의료기관의 방문없이 가정내에서 쉽게,",
+      "body": "가정 내에서 편리한 방식으로 매일 자신의 두피 상태를 진단하고, 그날의 두피 상태에 맞는 세럼을 사용하여 두피를 케어하는 홈 케어 두피 진단 및 케어디바이스를 제안합니다."
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/07.jpg"
+      "src": "assets/works/kim-taeyeon/p11.jpg",
+      "full": true
     },
     {
       "type": "section",
@@ -441,14 +521,42 @@
     },
     {
       "type": "text",
-      "title": "컨셉을 한 줄로 적어주세요",
-      "body": "컨셉 설명을 적어주세요.",
+      "title": "Care Your Scalp, RU:tine",
+      "body": "루티네는 신체 내 관리하기 힘든 두피 영역을 의료기관의 방문 없이\n일상 속에서 규칙적으로 관리하는 진단과 케어의 과정을 통해 두피의 건강을 지키는 홈 케어 디바이스입니다.",
       "align": "center",
       "size": "large"
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/08.jpg",
+      "src": "assets/works/kim-taeyeon/p13.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kim-taeyeon/p14.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Design mission"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kim-taeyeon/p16.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Diagram"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kim-taeyeon/p18.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kim-taeyeon/p19.jpg",
       "full": true
     },
     {
@@ -456,28 +564,51 @@
       "label": "Product"
     },
     {
-      "type": "images",
-      "items": [
-        {
-          "src": "assets/works/kim-taeyeon/09.jpg"
-        },
-        {
-          "src": "assets/works/kim-taeyeon/10.jpg"
-        }
-      ]
+      "type": "image",
+      "src": "assets/works/kim-taeyeon/p21.jpg",
+      "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/11.jpg"
+      "src": "assets/works/kim-taeyeon/p23.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kim-taeyeon/p25.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kim-taeyeon/p26.jpg",
+      "full": true
     },
     {
       "type": "section",
-      "label": "How to Use"
+      "label": "UXUI"
     },
     {
       "type": "video",
-      "src": "assets/works/kim-taeyeon/howto.mp4",
-      "label": "사용 영상"
+      "src": "assets/works/kim-taeyeon/v28.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kim-taeyeon/p29.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kim-taeyeon/p30.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "assets/works/kim-taeyeon/p31.jpg",
+      "full": true
     },
     {
       "type": "section",
@@ -485,36 +616,28 @@
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/12.jpg"
-    },
-    {
-      "type": "images",
-      "items": [
-        {
-          "src": "assets/works/kim-taeyeon/13.jpg"
-        },
-        {
-          "src": "assets/works/kim-taeyeon/14.jpg"
-        }
-      ]
+      "src": "assets/works/kim-taeyeon/p32.jpg",
+      "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/15.jpg",
-      "label": "마무리 이미지"
+      "src": "assets/works/kim-taeyeon/p33.jpg",
+      "full": true
     }
   ],
   "nam-jeheon": [
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/01.jpg",
-      "label": "대표 이미지",
+      "src": "assets/works/nam-jeheon/p02.png",
       "full": true
     },
     {
       "type": "video",
-      "src": "assets/works/nam-jeheon/intro.mp4",
-      "label": "인트로 영상 (mp4) 또는 YouTube/Vimeo"
+      "src": "assets/works/nam-jeheon/v03.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
     },
     {
       "type": "section",
@@ -522,19 +645,13 @@
     },
     {
       "type": "text",
-      "title": "배경 제목을 한 줄로 적어주세요",
-      "body": "프로젝트를 시작하게 된 사회적·환경적 맥락을 간결하게 적어주세요."
+      "title": "반복되는 정리",
+      "body": "개인화된 업무와 학습 환경의 확산으로 데스크는 단순한 작업 공간을 넘어 일상 속 다양한 활동이 이루어지는 생활공간으로 변화하고 있습니다. 이에 따라 스마트폰, 태블릿, 문구류 등 다양한 물건의 사용과 이동이 반복되며 정리의 번거로움 또한 증가하고 있습니다."
     },
     {
-      "type": "images",
-      "items": [
-        {
-          "src": "assets/works/nam-jeheon/02.jpg"
-        },
-        {
-          "src": "assets/works/nam-jeheon/03.jpg"
-        }
-      ]
+      "type": "image",
+      "src": "assets/works/nam-jeheon/p05.png",
+      "full": true
     },
     {
       "type": "section",
@@ -542,43 +659,41 @@
     },
     {
       "type": "text",
-      "body": "현재 사용 경험에서 발견한 문제와 한계를 적어주세요."
-    },
-    {
-      "type": "images",
-      "items": [
-        {
-          "src": "assets/works/nam-jeheon/04.jpg"
-        },
-        {
-          "src": "assets/works/nam-jeheon/05.jpg"
-        }
-      ]
-    },
-    {
-      "type": "section",
-      "label": "Discover"
-    },
-    {
-      "type": "text",
-      "body": "리서치 과정에서 발견한 내용을 적어주세요."
+      "title": "",
+      "body": "사용자는 데스크에서 다양한 물건을 자유롭게 꺼내 사용하지만, 바쁜 일상으로 인해 정리할 시간이 부족하고, 정리를 위해 물건을 하나씩 제자리로 돌려놓는 과정 또한 번거롭게 느껴 정리를 미루게 됩니다. 기존 오거나이저는 정리할 공간만 제공할 뿐, 사용 후 물건을 스스로 정돈하지 못한다는 한계가 있습니다."
     },
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/06.jpg"
+      "src": "assets/works/nam-jeheon/p07.png",
+      "full": true
     },
     {
       "type": "section",
-      "label": "Solution"
+      "label": "Persona"
     },
     {
       "type": "text",
-      "title": "솔루션 제목을 한 줄로 적어주세요",
-      "body": "리서치와 이어지는 해결 방향을 적어주세요."
+      "title": "",
+      "body": "사용자의 부재를 활용해 정리 과정을 자동화하고, 물건을 지정된 위치로 되돌려주는 새로운 데스크 정리 경험이 필요하다고 생각했습니다."
     },
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/07.jpg"
+      "src": "assets/works/nam-jeheon/p09.png",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "User Journeymap"
+    },
+    {
+      "type": "text",
+      "title": "사용하지 않는 순간, 시작되는 정리",
+      "body": "사용자의 부재를 감지하면 OR:ma가 데스크 위 물건을 자동으로 정리하고 사용자가 지정한 위치로 복귀시킵니다."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/nam-jeheon/p11.png",
+      "full": true
     },
     {
       "type": "section",
@@ -586,43 +701,113 @@
     },
     {
       "type": "text",
-      "title": "컨셉을 한 줄로 적어주세요",
-      "body": "컨셉 설명을 적어주세요.",
+      "title": "Leave it to OR:ma!",
+      "body": "오르마는 사용자의 움직임과 부재를 감지하고, 흩어진 물건을 스스로 제자리로 되돌리는 자동 정리를 통해\n보다 편안하고 정돈된 데스크 경험을 제공하는 로봇암입니다.",
       "align": "center",
       "size": "large"
     },
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/08.jpg",
+      "src": "assets/works/nam-jeheon/p13.png",
       "full": true
+    },
+    {
+      "type": "image",
+      "src": "assets/works/nam-jeheon/p14.png",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Design mission"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/nam-jeheon/p15.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "assets/works/nam-jeheon/p16.png",
+      "full": true
+    },
+    {
+      "type": "text",
+      "title": "SENSOR + ORGANIZE + LIVING",
+      "body": "OR:ma는 사용자가 데스크를 사용하는 동안에는 작업을 방해하지 않고 대기하며, 센서를 통해 사용자가 자리를 비운 것을 감지하고 데스크 위에 흩어진 물건을 인식해 지정된 위치로 스스로 정리합니다. 사용자가 다시 돌아오면 정돈된 데스크에서 바로 작업을 이어갈 수 있도록 하며, 물건의 사용이 끝나면 다시 정리할 수 있는 상태를 유지합니다. 또한 기존의 산업용 로봇암과 달리 데스크와 생활공간에 자연스럽게 어우러질 수 있도록 하나의 생활 오브제처럼 공간에 공존하는 리빙 디자인을 지향합니다.",
+      "align": "center"
     },
     {
       "type": "section",
       "label": "Product"
     },
     {
-      "type": "images",
-      "items": [
-        {
-          "src": "assets/works/nam-jeheon/09.jpg"
-        },
-        {
-          "src": "assets/works/nam-jeheon/10.jpg"
-        }
-      ]
-    },
-    {
       "type": "image",
-      "src": "assets/works/nam-jeheon/11.jpg"
+      "src": "assets/works/nam-jeheon/p19.png",
+      "full": true
     },
     {
       "type": "section",
-      "label": "How to Use"
+      "label": "Function"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/nam-jeheon/p23.png",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "UXUI"
     },
     {
       "type": "video",
-      "src": "assets/works/nam-jeheon/howto.mp4",
-      "label": "사용 영상"
+      "src": "assets/works/nam-jeheon/v25.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "image",
+      "src": "assets/works/nam-jeheon/p26.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "assets/works/nam-jeheon/p27.png",
+      "full": true
+    },
+    {
+      "type": "text",
+      "title": "Check how things are being organized now.",
+      "body": "OR:ma의 정리 진행 상황을 한눈에 확인할 수 있습니다.\n현재 정리 중인 물품과 전체 진행 상태를 확인하고 필요에 따라 정리를 잠시 멈출 수도 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "Check your organization records.",
+      "body": "언제, 어떤 물품이 정리되었는지 기록으로 확인할 수 있습니다.\n반복되는 데스크 정리 패턴을 확인하며 나의 사용 환경을 이해할 수 있습니다."
+    },
+    {
+      "type": "video",
+      "src": "assets/works/nam-jeheon/v31.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "text",
+      "title": "Check the desk’s status at a glance.",
+      "body": "센서가 감지한 데스크 상태와 사용자 감지 데이터를 확인할 수 있습니다.\n반복되는 데스크 정리 패턴을 확인하며 나의 사용 환경을 이해할 수 있습니다."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/nam-jeheon/p33.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "assets/works/nam-jeheon/p34.png",
+      "full": true
     },
     {
       "type": "section",
@@ -630,23 +815,16 @@
     },
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/12.jpg"
+      "src": "assets/works/nam-jeheon/p35.png",
+      "full": true
     },
     {
-      "type": "images",
-      "items": [
-        {
-          "src": "assets/works/nam-jeheon/13.jpg"
-        },
-        {
-          "src": "assets/works/nam-jeheon/14.jpg"
-        }
-      ]
-    },
-    {
-      "type": "image",
-      "src": "assets/works/nam-jeheon/15.jpg",
-      "label": "마무리 이미지"
+      "type": "video",
+      "src": "assets/works/nam-jeheon/v36.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
     }
   ],
   "kwak-hoyoung": [
