@@ -226,7 +226,7 @@
   "lee-yubin": [
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p02.jpg",
+      "src": "lee-yubin/p02.jpg",
       "full": true
     },
     {
@@ -244,7 +244,7 @@
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p05.jpg",
+      "src": "lee-yubin/p05.jpg",
       "full": true
     },
     {
@@ -257,7 +257,7 @@
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p07.jpg",
+      "src": "lee-yubin/p07.jpg",
       "full": true
     },
     {
@@ -271,7 +271,7 @@
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p09.jpg",
+      "src": "lee-yubin/p09.jpg",
       "full": true
     },
     {
@@ -287,12 +287,12 @@
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p11.jpg",
+      "src": "lee-yubin/p11.jpg",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p12.jpg",
+      "src": "lee-yubin/p12.jpg",
       "full": true
     },
     {
@@ -319,12 +319,12 @@
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p18.jpg",
+      "src": "lee-yubin/p18.jpg",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p19.jpg",
+      "src": "lee-yubin/p19.jpg",
       "full": true
     },
     {
@@ -333,7 +333,7 @@
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p21.jpg",
+      "src": "lee-yubin/p21.jpg",
       "full": true
     },
     {
@@ -343,7 +343,7 @@
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p23.jpg",
+      "src": "lee-yubin/p23.jpg",
       "full": true
     },
     {
@@ -353,7 +353,7 @@
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p25.jpg",
+      "src": "lee-yubin/p25.jpg",
       "full": true
     },
     {
@@ -362,22 +362,22 @@
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p27.jpg",
+      "src": "lee-yubin/p27.jpg",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p28.jpg",
+      "src": "lee-yubin/p28.jpg",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p29.jpg",
+      "src": "lee-yubin/p29.jpg",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p30.jpg",
+      "src": "lee-yubin/p30.jpg",
       "full": true
     },
     {
@@ -386,12 +386,12 @@
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p32.jpg",
+      "src": "lee-yubin/p32.jpg",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p33.jpg",
+      "src": "lee-yubin/p33.jpg",
       "full": true
     },
     {
@@ -401,12 +401,12 @@
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p35.jpg",
+      "src": "lee-yubin/p35.jpg",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p36.jpg",
+      "src": "lee-yubin/p36.jpg",
       "full": true
     },
     {
@@ -420,12 +420,12 @@
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p39.jpg",
+      "src": "lee-yubin/p39.jpg",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p40.jpg",
+      "src": "lee-yubin/p40.jpg",
       "full": true
     },
     {
@@ -438,24 +438,24 @@
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p43.jpg",
+      "src": "lee-yubin/p43.jpg",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/lee-yubin/p44.jpg",
+      "src": "lee-yubin/p44.jpg",
       "full": true
     }
   ],
   "kim-taeyeon": [
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/p02.jpg",
+      "src": "kim-taeyeon/p02.jpg",
       "full": true
     },
     {
       "type": "video",
-      "src": "assets/works/kim-taeyeon/v03.mp4",
+      "src": "kim-taeyeon/v03.mp4",
       "autoplay": true,
       "muted": true,
       "loop": true,
@@ -472,7 +472,7 @@
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/p05.jpg",
+      "src": "kim-taeyeon/p05.jpg",
       "full": true
     },
     {
@@ -485,7 +485,7 @@
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/p07.jpg",
+      "src": "kim-taeyeon/p07.jpg",
       "full": true
     },
     {
@@ -498,7 +498,7 @@
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/p09.jpg",
+      "src": "kim-taeyeon/p09.jpg",
       "full": true
     },
     {
@@ -512,7 +512,7 @@
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/p11.jpg",
+      "src": "kim-taeyeon/p11.jpg",
       "full": true
     },
     {
@@ -528,12 +528,12 @@
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/p13.jpg",
+      "src": "kim-taeyeon/p13.jpg",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/p14.jpg",
+      "src": "kim-taeyeon/p14.jpg",
       "full": true
     },
     {
@@ -542,7 +542,7 @@
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/p16.jpg",
+      "src": "kim-taeyeon/p16.jpg",
       "full": true
     },
     {
@@ -551,12 +551,12 @@
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/p18.jpg",
+      "src": "kim-taeyeon/p18.jpg",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/p19.jpg",
+      "src": "kim-taeyeon/p19.jpg",
       "full": true
     },
     {
@@ -565,22 +565,22 @@
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/p21.jpg",
+      "src": "kim-taeyeon/p21.jpg",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/p23.jpg",
+      "src": "kim-taeyeon/p23.jpg",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/p25.jpg",
+      "src": "kim-taeyeon/p25.jpg",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/p26.jpg",
+      "src": "kim-taeyeon/p26.jpg",
       "full": true
     },
     {
@@ -589,7 +589,7 @@
     },
     {
       "type": "video",
-      "src": "assets/works/kim-taeyeon/v28.mp4",
+      "src": "kim-taeyeon/v28.mp4",
       "autoplay": true,
       "muted": true,
       "loop": true,
@@ -597,17 +597,17 @@
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/p29.jpg",
+      "src": "kim-taeyeon/p29.jpg",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/p30.jpg",
+      "src": "kim-taeyeon/p30.jpg",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/p31.jpg",
+      "src": "kim-taeyeon/p31.jpg",
       "full": true
     },
     {
@@ -616,24 +616,24 @@
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/p32.jpg",
+      "src": "kim-taeyeon/p32.jpg",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/kim-taeyeon/p33.jpg",
+      "src": "kim-taeyeon/p33.jpg",
       "full": true
     }
   ],
   "nam-jeheon": [
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/p02.png",
+      "src": "nam-jeheon/p02.png",
       "full": true
     },
     {
       "type": "video",
-      "src": "assets/works/nam-jeheon/v03.mp4",
+      "src": "nam-jeheon/v03.mp4",
       "autoplay": true,
       "muted": true,
       "loop": true,
@@ -650,7 +650,7 @@
     },
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/p05.png",
+      "src": "nam-jeheon/p05.png",
       "full": true
     },
     {
@@ -664,7 +664,7 @@
     },
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/p07.png",
+      "src": "nam-jeheon/p07.png",
       "full": true
     },
     {
@@ -678,7 +678,7 @@
     },
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/p09.png",
+      "src": "nam-jeheon/p09.png",
       "full": true
     },
     {
@@ -692,7 +692,7 @@
     },
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/p11.png",
+      "src": "nam-jeheon/p11.png",
       "full": true
     },
     {
@@ -708,12 +708,12 @@
     },
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/p13.png",
+      "src": "nam-jeheon/p13.png",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/p14.png",
+      "src": "nam-jeheon/p14.png",
       "full": true
     },
     {
@@ -722,12 +722,12 @@
     },
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/p15.png",
+      "src": "nam-jeheon/p15.png",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/p16.png",
+      "src": "nam-jeheon/p16.png",
       "full": true
     },
     {
@@ -742,7 +742,7 @@
     },
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/p19.png",
+      "src": "nam-jeheon/p19.png",
       "full": true
     },
     {
@@ -751,7 +751,7 @@
     },
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/p23.png",
+      "src": "nam-jeheon/p23.png",
       "full": true
     },
     {
@@ -760,7 +760,7 @@
     },
     {
       "type": "video",
-      "src": "assets/works/nam-jeheon/v25.mp4",
+      "src": "nam-jeheon/v25.mp4",
       "autoplay": true,
       "muted": true,
       "loop": true,
@@ -768,12 +768,12 @@
     },
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/p26.png",
+      "src": "nam-jeheon/p26.png",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/p27.png",
+      "src": "nam-jeheon/p27.png",
       "full": true
     },
     {
@@ -788,7 +788,7 @@
     },
     {
       "type": "video",
-      "src": "assets/works/nam-jeheon/v31.mp4",
+      "src": "nam-jeheon/v31.mp4",
       "autoplay": true,
       "muted": true,
       "loop": true,
@@ -801,12 +801,12 @@
     },
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/p33.png",
+      "src": "nam-jeheon/p33.png",
       "full": true
     },
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/p34.png",
+      "src": "nam-jeheon/p34.png",
       "full": true
     },
     {
@@ -815,12 +815,12 @@
     },
     {
       "type": "image",
-      "src": "assets/works/nam-jeheon/p35.png",
+      "src": "nam-jeheon/p35.png",
       "full": true
     },
     {
       "type": "video",
-      "src": "assets/works/nam-jeheon/v36.mp4",
+      "src": "nam-jeheon/v36.mp4",
       "autoplay": true,
       "muted": true,
       "loop": true,
