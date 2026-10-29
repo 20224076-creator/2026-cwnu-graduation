@@ -1011,14 +1011,12 @@
   "jung-woohyun": [
     {
       "type": "image",
-      "src": "assets/works/jung-woohyun/01.jpg",
-      "label": "대표 이미지",
+      "src": "jung-woohyun/p02.png",
       "full": true
     },
     {
       "type": "video",
-      "src": "assets/works/jung-woohyun/intro.mp4",
-      "label": "인트로 영상 (mp4) 또는 YouTube/Vimeo"
+      "youtube": "https://www.youtube.com/watch?v=FO6ZhRkrIGw"
     },
     {
       "type": "section",
@@ -1026,19 +1024,16 @@
     },
     {
       "type": "text",
-      "title": "배경 제목을 한 줄로 적어주세요",
-      "body": "프로젝트를 시작하게 된 사회적·환경적 맥락을 간결하게 적어주세요."
+      "title": "평소의 모습으로 이어가고 싶은 일상",
+      "body": "산책과 모임처럼 자기 활동을 이어가고 싶은 액티브 시니어에게는 보조 기능만큼 평소의 옷차림과 모습도 중요합니다. 움직임에 도움이 필요해도, 겉으로 드러나는 보조 장비와 번거로운 착용은 사용을 망설이게 만듭니다."
     },
     {
-      "type": "images",
-      "items": [
-        {
-          "src": "assets/works/jung-woohyun/02.jpg"
-        },
-        {
-          "src": "assets/works/jung-woohyun/03.jpg"
-        }
-      ]
+      "type": "video",
+      "src": "jung-woohyun/v05.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
     },
     {
       "type": "section",
@@ -1046,18 +1041,12 @@
     },
     {
       "type": "text",
-      "body": "현재 사용 경험에서 발견한 문제와 한계를 적어주세요."
+      "body": "요즘 보행 보조기는 가벼워졌지만, 대부분 밖에서 걸을 때 다리를 드는 힘을 돕고 외출할 때 따로 찹니다. 정작 하루가 시작되는 실내에서 앉았다 일어서고 계단을 오르내릴 때, 무릎을 펴고 버티는 힘은 비어 있습니다."
     },
     {
-      "type": "images",
-      "items": [
-        {
-          "src": "assets/works/jung-woohyun/04.jpg"
-        },
-        {
-          "src": "assets/works/jung-woohyun/05.jpg"
-        }
-      ]
+      "type": "image",
+      "src": "jung-woohyun/p07.png",
+      "full": true
     },
     {
       "type": "section",
@@ -1065,11 +1054,23 @@
     },
     {
       "type": "text",
-      "body": "리서치 과정에서 발견한 내용을 적어주세요."
+      "body": "65세 이상 인구는 2025년 20.3%로 초고령사회에 들어섰습니다. 나이가 들면 걷기뿐 아니라 앉았다 일어서기·계단처럼 무릎을 펴는 동작도 힘들어지지만, 보행 보조기는 대부분 밖에서 걸을 때 쓰는 장치입니다."
     },
     {
-      "type": "image",
-      "src": "assets/works/jung-woohyun/06.jpg"
+      "type": "video",
+      "src": "jung-woohyun/v09.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "video",
+      "src": "jung-woohyun/v10.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
     },
     {
       "type": "section",
@@ -1077,12 +1078,18 @@
     },
     {
       "type": "text",
-      "title": "솔루션 제목을 한 줄로 적어주세요",
-      "body": "리서치와 이어지는 해결 방향을 적어주세요."
+      "title": "두 갈래 인공근육, A와 B",
+      "body": "위브온은 레깅스 안에 인공근육을 엮어 넣었습니다. A는 허리에서 허벅지로 이어져 다리 들기를, B는 무릎을 지나 종아리로 이어져 무릎 펴기와 천천히 버티기를 돕습니다."
     },
     {
       "type": "image",
-      "src": "assets/works/jung-woohyun/07.jpg"
+      "src": "jung-woohyun/p12.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p13.png",
+      "full": true
     },
     {
       "type": "section",
@@ -1090,67 +1097,150 @@
     },
     {
       "type": "text",
-      "title": "컨셉을 한 줄로 적어주세요",
-      "body": "컨셉 설명을 적어주세요.",
+      "title": "평소 옷차림 그대로, 움직임을 이어 입다",
+      "body": "위브온은 보조 장비를 옷 안으로 엮어 넣습니다. 근육 경로와 가이드, 전원부를 레깅스 한 벌에 담아 겉바지 안에 입으면 드러나지 않고, 입는 순간부터 일상의 움직임을 함께합니다.",
       "align": "center",
-      "size": "large"
+      "size": "lg"
     },
     {
       "type": "image",
-      "src": "assets/works/jung-woohyun/08.jpg",
+      "src": "jung-woohyun/p15.png",
       "full": true
+    },
+    {
+      "type": "text",
+      "title": "As-is",
+      "body": "보조기가 겉옷 위로 드러나 주변 시선이 신경 쓰입니다. 야외 걷기 중심이라 실내에서 앉고 일어서는 동작은 놓치기 쉽습니다."
+    },
+    {
+      "type": "text",
+      "title": "To-be",
+      "body": "겉바지 안에 입는 이너웨어라 평소 옷차림을 그대로 지킵니다. 앉고 일어서기부터 계단까지, A와 B를 조합해 함께 돕습니다."
+    },
+    {
+      "type": "video",
+      "src": "jung-woohyun/v17.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "section",
+      "label": "Design mission"
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p19.png",
+      "full": true
+    },
+    {
+      "type": "text",
+      "title": "익숙한 옷차림 그대로, 일상의 움직임을 이어가다.",
+      "body": "위브온은 보조기를 ‘차는’ 방식에서 ‘입는’ 방식으로 바꿉니다. 옷 안에서 조용히 움직임을 거들어, 스스로 걷고 일어서는 일상을 오래 이어가도록 합니다.",
+      "align": "center"
+    },
+    {
+      "type": "video",
+      "src": "jung-woohyun/v21.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "section",
+      "label": "Branding"
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p23.png",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "jung-woohyun/v24.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
     },
     {
       "type": "section",
       "label": "Product"
     },
     {
-      "type": "images",
-      "items": [
-        {
-          "src": "assets/works/jung-woohyun/09.jpg"
-        },
-        {
-          "src": "assets/works/jung-woohyun/10.jpg"
-        }
-      ]
+      "type": "text",
+      "body": "허리부터 무릎까지, 옷 한 벌에 담은 구조"
     },
     {
       "type": "image",
-      "src": "assets/works/jung-woohyun/11.jpg"
+      "src": "jung-woohyun/p26.png",
+      "full": true
     },
     {
-      "type": "section",
-      "label": "How to Use"
+      "type": "image",
+      "src": "jung-woohyun/p27.png",
+      "full": true
+    },
+    {
+      "type": "text",
+      "title": "PARTS MAP — 네 부분이 한 벌로",
+      "body": "옆모습과 뒷모습의 번호가 아래 PART 01~04로 이어집니다."
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p29.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p30.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p31.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p32.png",
+      "full": true
     },
     {
       "type": "video",
-      "src": "assets/works/jung-woohyun/howto.mp4",
-      "label": "사용 영상"
+      "src": "jung-woohyun/v33.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
     },
     {
       "type": "section",
-      "label": "Process"
+      "label": "UXUI"
     },
     {
       "type": "image",
-      "src": "assets/works/jung-woohyun/12.jpg"
+      "src": "jung-woohyun/p35.png",
+      "full": true
     },
     {
-      "type": "images",
-      "items": [
-        {
-          "src": "assets/works/jung-woohyun/13.jpg"
-        },
-        {
-          "src": "assets/works/jung-woohyun/14.jpg"
-        }
-      ]
+      "type": "video",
+      "src": "jung-woohyun/v36.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "video",
+      "youtube": "https://www.youtube.com/watch?v=OAIjapI3mBg"
     },
     {
       "type": "image",
-      "src": "assets/works/jung-woohyun/15.jpg",
-      "label": "마무리 이미지"
+      "src": "jung-woohyun/p38.png",
+      "full": true
     }
   ],
   "son-hanyoung": [
