@@ -782,6 +782,14 @@
       "body": "OR:ma의 정리 진행 상황을 한눈에 확인할 수 있습니다.\n현재 정리 중인 물품과 전체 진행 상태를 확인하고 필요에 따라 정리를 잠시 멈출 수도 있습니다."
     },
     {
+      "type": "video",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false,
+      "src": "nam-jeheon/v29.mp4"
+    },
+    {
       "type": "text",
       "title": "Check your organization records.",
       "body": "언제, 어떤 물품이 정리되었는지 기록으로 확인할 수 있습니다.\n반복되는 데스크 정리 패턴을 확인하며 나의 사용 환경을 이해할 수 있습니다."
