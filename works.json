@@ -1254,14 +1254,12 @@
   "son-hanyoung": [
     {
       "type": "image",
-      "src": "assets/works/son-hanyoung/01.jpg",
-      "label": "대표 이미지",
+      "src": "son-hanyoung/p02.jpg",
       "full": true
     },
     {
       "type": "video",
-      "src": "assets/works/son-hanyoung/intro.mp4",
-      "label": "인트로 영상 (mp4) 또는 YouTube/Vimeo"
+      "youtube": "https://www.youtube.com/watch?v=nsJ_9Q81RZY"
     },
     {
       "type": "section",
@@ -1269,19 +1267,13 @@
     },
     {
       "type": "text",
-      "title": "배경 제목을 한 줄로 적어주세요",
-      "body": "프로젝트를 시작하게 된 사회적·환경적 맥락을 간결하게 적어주세요."
+      "title": "Homemade, reflecting personal taste",
+      "body": "자신의 취향을 식생활에 반영하려는 욕구는 집에서 직접 만드는 홈메이드 경험으로 이어집니다. 원하는 식품을 선택하고 맛과 식감, 양을 직접 조절하며 제조 과정에도 참여하는 것입니다. 프로젝트는 가공 방식에 따라 물성이 달라져 여러 식품으로 만들어지는 콩을 중심으로, 취향에 맞춘 제조 경험을 탐색합니다."
     },
     {
-      "type": "images",
-      "items": [
-        {
-          "src": "assets/works/son-hanyoung/02.jpg"
-        },
-        {
-          "src": "assets/works/son-hanyoung/03.jpg"
-        }
-      ]
+      "type": "image",
+      "src": "son-hanyoung/p05.jpg",
+      "full": true
     },
     {
       "type": "section",
@@ -1289,18 +1281,12 @@
     },
     {
       "type": "text",
-      "body": "현재 사용 경험에서 발견한 문제와 한계를 적어주세요."
+      "body": "가정에서 콩 식품을 직접 만드는 과정은 여러 제조 단계와 기기, 도구의 사용을 수반합니다. 특히 공정마다 필요한 수작업과 도구의 준비, 관리는 시간과 공간의 부담을 높이며, 사용자가 일상에서 다양한 콩 식품을 자신의 취향에 맞게 만들어 즐기는 데 제약이 따릅니다."
     },
     {
-      "type": "images",
-      "items": [
-        {
-          "src": "assets/works/son-hanyoung/04.jpg"
-        },
-        {
-          "src": "assets/works/son-hanyoung/05.jpg"
-        }
-      ]
+      "type": "image",
+      "src": "son-hanyoung/p07.jpg",
+      "full": true
     },
     {
       "type": "section",
@@ -1308,11 +1294,12 @@
     },
     {
       "type": "text",
-      "body": "리서치 과정에서 발견한 내용을 적어주세요."
+      "body": "두유, 두부, 낫토, 메주를 직접 만들려면 다양한 도구와 제조 단계가 필요합니다. 식품별 공정을 비교해 공통 공정을 확인하고, 이를 하나의 기기로 연결해 도구 준비와 공정 전환의 번거로움을 줄이고자 했습니다."
     },
     {
       "type": "image",
-      "src": "assets/works/son-hanyoung/06.jpg"
+      "src": "son-hanyoung/p09.jpg",
+      "full": true
     },
     {
       "type": "section",
@@ -1320,12 +1307,13 @@
     },
     {
       "type": "text",
-      "title": "솔루션 제목을 한 줄로 적어주세요",
-      "body": "리서치와 이어지는 해결 방향을 적어주세요."
+      "title": "다양한 콩 식품을 만드는 하나의 디바이스",
+      "body": "콩의 물성과 사용 동작을 고려해 공통 공정을 통합하고 식품별 후속 공정으로 분기합니다. 기기 준비의 부담을 줄이고 취향에 맞는 홈메이드 경험을 제안합니다."
     },
     {
       "type": "image",
-      "src": "assets/works/son-hanyoung/07.jpg"
+      "src": "son-hanyoung/p11.jpg",
+      "full": true
     },
     {
       "type": "section",
@@ -1333,14 +1321,53 @@
     },
     {
       "type": "text",
-      "title": "컨셉을 한 줄로 적어주세요",
-      "body": "컨셉 설명을 적어주세요.",
+      "title": "Make It Your Way, Duru!",
+      "body": "두루는 콩의 물성 변화와 공정 통합을 통해 두유, 두부, 낫토, 메주를 만드는 디바이스입니다. 공통 공정을 하나의 모듈에 모으고 식품별 후속 공정을 연결해, 원하는 식품을 취향에 맞게 만들어 즐기는 홈메이드 경험을 제안합니다.",
       "align": "center",
-      "size": "large"
+      "size": "lg"
     },
     {
       "type": "image",
-      "src": "assets/works/son-hanyoung/08.jpg",
+      "src": "son-hanyoung/p13.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "son-hanyoung/p14.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Design mission"
+    },
+    {
+      "type": "image",
+      "src": "son-hanyoung/p16.jpg",
+      "full": true
+    },
+    {
+      "type": "text",
+      "title": "내 취향에 맞춰, 집에서 만드는 다양한 콩 식품",
+      "body": "두루는 콩의 물성 변화에 따른 제조 공정을 하나의 기기에 통합해 두유, 두부, 낫토, 메주를 만드는 디바이스입니다. 원하는 식품과 취향을 설정해, 여러 기기와 도구를 준비하는 부담을 줄이고 집에서 직접 만들어 즐기는 경험을 제안합니다.",
+      "align": "center"
+    },
+    {
+      "type": "image",
+      "src": "son-hanyoung/p18.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Diagram"
+    },
+    {
+      "type": "image",
+      "src": "son-hanyoung/p20.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "son-hanyoung/p21.jpg",
       "full": true
     },
     {
@@ -1348,52 +1375,32 @@
       "label": "Product"
     },
     {
-      "type": "images",
-      "items": [
-        {
-          "src": "assets/works/son-hanyoung/09.jpg"
-        },
-        {
-          "src": "assets/works/son-hanyoung/10.jpg"
-        }
-      ]
-    },
-    {
       "type": "image",
-      "src": "assets/works/son-hanyoung/11.jpg"
+      "src": "son-hanyoung/p22.jpg",
+      "full": true
     },
     {
       "type": "section",
-      "label": "How to Use"
+      "label": "Details"
     },
     {
-      "type": "video",
-      "src": "assets/works/son-hanyoung/howto.mp4",
-      "label": "사용 영상"
+      "type": "image",
+      "src": "son-hanyoung/p24.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "son-hanyoung/p25.jpg",
+      "full": true
     },
     {
       "type": "section",
-      "label": "Process"
+      "label": "Outro"
     },
     {
       "type": "image",
-      "src": "assets/works/son-hanyoung/12.jpg"
-    },
-    {
-      "type": "images",
-      "items": [
-        {
-          "src": "assets/works/son-hanyoung/13.jpg"
-        },
-        {
-          "src": "assets/works/son-hanyoung/14.jpg"
-        }
-      ]
-    },
-    {
-      "type": "image",
-      "src": "assets/works/son-hanyoung/15.jpg",
-      "label": "마무리 이미지"
+      "src": "son-hanyoung/p26.jpg",
+      "full": true
     }
   ],
   "choi-yewon": [
