@@ -1,0 +1,1575 @@
+{
+  "park-geonhwa": [
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/p02.jpg",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "assets/works/park-geonhwa/intro.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "section",
+      "label": "Background"
+    },
+    {
+      "type": "text",
+      "title": "변화하는 환경, 복잡해지는 감정",
+      "body": "기쁨, 불안, 스트레스, 외로움부터 설렘과 즐거움까지. 빠르게 변화하는 일상 속에서 Z세대의 감정은 하루에도 몇 번씩 달라지곤 합니다. 이렇게 복잡한 감정을 안고 살아가는 우리에게 AI는 어느새 고민을 나누는 친구이자 일상의 동반자, 즉 떼려야 뗄 수 없는 존재가 되었죠."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/p05.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Painpoint"
+    },
+    {
+      "type": "text",
+      "body": "그러나 AI와 아무리 많은 대화를 나눠도, 그 경험은 여전히 스마트폰 액정과 음성 속에 머물러 있지 않나요? 마음을 털어놓을 수는 있지만, 여전히 기계와 대화하는 느낌에 머물러 있습니다. 그렇다면 AI가 화면 밖에서 보다 더 자연스러운 방식으로 일상 속에 지친 내 감정을 돌볼 수 있는 방법은 없을까요?"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/p07.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Discover"
+    },
+    {
+      "type": "text",
+      "body": "그렇다면, 화면 밖에서는 어떨까요? AI와의 감정 교류를 물리적인 경험으로 확장하는 방식 중 하나는 바로 컴패니언 로봇입니다. 하지만 기존의 컴패니언 로봇은 주로 가사와 같은 특정 기능을 수행하는 로봇이나, 접촉을 중심으로 한 인형 형태에 집중되어 있습니다. 기능을 수행하거나 단순히 안아주는 것을 넘어, 일상 속에서 자연스럽게 감정을 교감하는 새로운 반려로봇을 탐색합니다."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/p09.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Solution"
+    },
+    {
+      "type": "text",
+      "title": "반려의 경험을 해부하고 로봇과 함께하는 방식을 재구성해보다",
+      "body": "Z세대의 일상에 자연스럽게 스며드는 반려로봇의 경험을 탐색하기 위해, 움직이는 로봇의 개념을 ‘반려’와 ‘이동’이라는 두 가지 관점으로 나누어 살펴보았습니다."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/p11.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Concept"
+    },
+    {
+      "type": "text",
+      "title": "Ask Your Robot, Pimo!",
+      "body": "반려로봇을 감각적인 오브제로 재해석해, Z세대의 일상에 자연스럽게 스며드는 피모.\n음성을 넘어 촉각으로 감정을 나누는 새로운 교감을 경험해 보세요.",
+      "align": "center",
+      "size": "large"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/p13.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/p14.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Design mission"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/p16.jpg",
+      "full": true
+    },
+    {
+      "type": "text",
+      "title": "일상에 스며드는 가장 작은 웰니스 컴패니언, PIMO",
+      "body": "피모는 이동형 스테이션과 함께 일상의 다양한 공간을 누비는 미니 반려로봇입니다. 단순히 고민을 듣고 답하는 것을 넘어, 주름의 움직임과 햅틱 피드백으로 감정을 나누고 교감하죠. 여기에 IoT 센서 연동을 더해 주변 환경까지 연결합니다.",
+      "align": "center"
+    },
+    {
+      "type": "video",
+      "src": "assets/works/park-geonhwa/pimo-intro.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false,
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Inspiration"
+    },
+    {
+      "type": "text",
+      "body": "어릴 적 가지고 놀던 원목 장난감 브랜드 PLAYSAM에서 영감을 받아, 원목 특유의 따뜻한 질감과 간결한 조형을 이동형 스테이션에 반영하고, 이를 로봇의 디자인 언어로 재해석하여, 일상 속에서 자연스럽게 함께할 수 있는 친근한 컴패니언 경험을 제안합니다."
+    },
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/p20.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Product"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/p21.jpg",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "assets/works/park-geonhwa/v23.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "video",
+      "src": "assets/works/park-geonhwa/v24.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/p25.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "UXUI"
+    },
+    {
+      "type": "text",
+      "body": "Pimo는 인터랙션 로직에 따라 감정을 표현합니다.\n8가지의 감정에 따라 이모지가 바뀌고, 주름에도 변화가 나타나요!"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/g27.gif",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "assets/works/park-geonhwa/v28.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "video",
+      "src": "assets/works/park-geonhwa/v29.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "section",
+      "label": "UXUI"
+    },
+    {
+      "type": "text",
+      "body": "피모는 IoT 하우스와 연동해 조명과 가전제품을 제어하고, 일상에 맞춰 집 안의 분위기까지 바꿔준답니다!"
+    },
+    {
+      "type": "video",
+      "src": "assets/works/park-geonhwa/v31.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "video",
+      "src": "assets/works/park-geonhwa/v32.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/p33.jpg",
+      "full": true
+    },
+    {
+      "type": "video",
+      "youtube": "https://youtu.be/-3JkvaHkBRU"
+    },
+    {
+      "type": "image",
+      "src": "assets/works/park-geonhwa/p35.jpg",
+      "full": true
+    }
+  ],
+  "lee-yubin": [
+    {
+      "type": "image",
+      "src": "lee-yubin/p02.jpg",
+      "full": true
+    },
+    {
+      "type": "video",
+      "youtube": "https://youtu.be/VGppH1ZXnPY"
+    },
+    {
+      "type": "section",
+      "label": "Background"
+    },
+    {
+      "type": "text",
+      "title": "From solo creation to shared experience",
+      "body": "작곡은 기술의 발전과 함께 전문가의 영역을 넘어 누구나 즐길 수 있는 일상적 창작 활동으로 확장되고 있습니다.\n이제 음악 창작은 결과를 완성하는 것뿐 아니라, 서로의 아이디어와 반응을 주고받으며 함께 만들어가는 과정 자체를 즐기는 경험으로 변화하고 있습니다."
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p05.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Painpoint"
+    },
+    {
+      "type": "text",
+      "body": "음악 창작의 진입장벽은 낮아졌지만, 기존 작곡 경험은 여전히 개인 작업 중심에 머물러 있습니다.\n혼자 만드는 과정에서 흥미가 쉽게 떨어지고, 함께 작업할 때는 실력 차이와 역할 부담으로 인해 자연스러운 협업이 어렵습니다."
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p07.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Project goal"
+    },
+    {
+      "type": "text",
+      "title": "서로 다른 두 사람을 하나의 흐름으로",
+      "body": "서로 다른 실력과 아이디어를 가진 두 사용자가 각자의 디바이스로 연주하면, AI가 리듬과 코드, 멜로디를 실시간으로 조율해 하나의 음악적 흐름으로 연결합니다. 물리적 조작과 햅틱 피드백을 통해 화면 중심이 아닌 함께 만들고 반응하는 창작 경험을 제공합니다."
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p09.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Concept"
+    },
+    {
+      "type": "text",
+      "title": "Tune Your Sound, Together.",
+      "body": "TUNIT은 두 사용자가 각자의 디바이스로 음악을 만들며, AI가 리듬과 코드, 멜로디를 실시간으로 조율해 서로의 아이디어가 자연스럽게 이어지도록 돕습니다.\n커스터마이징 가능한 모듈과 햅틱 인터랙션을 통해 음악을 손끝으로 주고받으며 함께 만들어가는 새로운 공동창작 경험을 제안합니다.",
+      "align": "center",
+      "size": "large"
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p11.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p12.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Core Value"
+    },
+    {
+      "type": "video",
+      "youtube": "https://youtu.be/NmOjTDJ9QyA"
+    },
+    {
+      "type": "text",
+      "title": "어디서든 시작되고, 함께 이어지는 음악",
+      "body": "TUNIT은 휴대 가능한 디바이스와 커스터마이징 모듈을 통해 장소에 구애받지 않고 언제든 창작을 시작할 수 있습니다.\n두 사용자의 아이디어를 AI가 자연스럽게 조율해, 서로의 반응을 주고받으며 함께 음악을 만들어가는 새로운 공동창작 경험을 제안합니다.",
+      "align": "center"
+    },
+    {
+      "type": "video",
+      "youtube": "https://youtu.be/4bFyVJjMbUk"
+    },
+    {
+      "type": "section",
+      "label": "Product"
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p18.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p19.jpg",
+      "full": true
+    },
+    {
+      "type": "video",
+      "youtube": "https://youtu.be/lhhzokZ2o5I"
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p21.jpg",
+      "full": true
+    },
+    {
+      "type": "text",
+      "title": "Percussion Instrument",
+      "body": "A tactile percussion interface, built with cubes\n큐브 모듈을 장착하고 직접 탭하며, 진동과 촉각을 통해 리듬을 느낄 수 있습니다."
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p23.jpg",
+      "full": true
+    },
+    {
+      "type": "text",
+      "title": "String Instrument",
+      "body": "A side-played string interface for melody\n제품의 옆면을 현악기처럼 쓸어 연주하며, 자연스러운 멜로디의 흐름과 표현을 만들어낼 수 있습니다."
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p25.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Detail"
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p27.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p28.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p29.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p30.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Branding"
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p32.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p33.jpg",
+      "full": true
+    },
+    {
+      "type": "text",
+      "title": "Key Visual",
+      "body": "Your Sound, Shared Rhythm: tunit turns every tap into a shared beat. Lime and deep brown, sound rings and waveforms show separate sounds becoming one flow.\ntunit의 키비주얼은 각자의 소리가 하나의 흐름으로 이어지는 순간을 담았습니다. 라임과 딥 브라운 컬러, 원형 사운드 링과 웨이브 그래픽으로 서로 다른 역할이 하나의 리듬이 되는 과정을 표현했습니다."
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p35.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p36.jpg",
+      "full": true
+    },
+    {
+      "type": "text",
+      "title": "Brand Color",
+      "body": "TUNIT blends vivid lime with grounded neutrals to express playful connection and tactile creativity.\nTUNIT은 선명한 라임과 차분한 뉴트럴 컬러를 조합해, 함께 만드는 즐거움과 손으로 느끼는 창작 경험을 표현합니다.\n라임은 연결과 상호작용의 순간을 강조하고, 올리브·브라운·그레이는 제품의 안정적이고 촉각적인 기반을 형성합니다."
+    },
+    {
+      "type": "video",
+      "youtube": "https://youtu.be/0D9C5tzPcwY"
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p39.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p40.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "UXUI"
+    },
+    {
+      "type": "video",
+      "youtube": "https://youtu.be/oo6gCrE1jrM"
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p43.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "lee-yubin/p44.jpg",
+      "full": true
+    }
+  ],
+  "kim-taeyeon": [
+    {
+      "type": "image",
+      "src": "kim-taeyeon/p02.jpg",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "kim-taeyeon/v03.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "section",
+      "label": "Background"
+    },
+    {
+      "type": "text",
+      "title": "안면케어를 넘어, 헤어와 두피케어의 확장으로",
+      "body": "뷰티 산업은 외적인 꾸밈을 넘어 건강과 본연의 아름다움을 관리하는 방향으로 변화하고 있으며, 이러한 흐름은 안면 중심에서 두피케어 영역으로 확장되고 있습니다.\n특히, 국내 탈모환자의 수가 증가하는 추세를 보이며 두피를 얼굴 피부처럼 관리한다는 ‘스키니피케이션’ 현상 또한 함께 부상하고 있습니다."
+    },
+    {
+      "type": "image",
+      "src": "kim-taeyeon/p05.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Painpoint"
+    },
+    {
+      "type": "text",
+      "body": "신체 내 직접 확인이 어려운 부위 중 하나는 ‘두피’로 자가진단만으로는 오진의 가능성이 있기에 전문 기관의 의존도가 높습니다.\n이에 따라, 개인의 두피 상태에 맞는 지속적인 예방과 관리에는 한계가 존재합니다."
+    },
+    {
+      "type": "image",
+      "src": "kim-taeyeon/p07.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Discover"
+    },
+    {
+      "type": "text",
+      "body": "전문기관용 두피진단 디바이스와 두피 관련 홈 케어 디바이스가 존재하고 있지만 각각 따로 이루어져있으며,\n정확한 진료와 치료가 목적이라면 가정이 아닌 의료기관에서 진료와 치료를 해야하기에 시간적, 경제적으로 큰 불편함을 초래합니다."
+    },
+    {
+      "type": "image",
+      "src": "kim-taeyeon/p09.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Solution"
+    },
+    {
+      "type": "text",
+      "title": "두피케어를 전문 의료기관의 방문없이 가정내에서 쉽게,",
+      "body": "가정 내에서 편리한 방식으로 매일 자신의 두피 상태를 진단하고, 그날의 두피 상태에 맞는 세럼을 사용하여 두피를 케어하는 홈 케어 두피 진단 및 케어디바이스를 제안합니다."
+    },
+    {
+      "type": "image",
+      "src": "kim-taeyeon/p11.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Concept"
+    },
+    {
+      "type": "text",
+      "title": "Care Your Scalp, RU:tine",
+      "body": "루티네는 신체 내 관리하기 힘든 두피 영역을 의료기관의 방문 없이\n일상 속에서 규칙적으로 관리하는 진단과 케어의 과정을 통해 두피의 건강을 지키는 홈 케어 디바이스입니다.",
+      "align": "center",
+      "size": "large"
+    },
+    {
+      "type": "image",
+      "src": "kim-taeyeon/p13.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "kim-taeyeon/p14.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Design mission"
+    },
+    {
+      "type": "image",
+      "src": "kim-taeyeon/p16.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Diagram"
+    },
+    {
+      "type": "image",
+      "src": "kim-taeyeon/p18.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "kim-taeyeon/p19.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Product"
+    },
+    {
+      "type": "image",
+      "src": "kim-taeyeon/p21.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "kim-taeyeon/p23.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "kim-taeyeon/p25.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "kim-taeyeon/p26.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "UXUI"
+    },
+    {
+      "type": "video",
+      "src": "kim-taeyeon/v28.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "image",
+      "src": "kim-taeyeon/p29.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "kim-taeyeon/p30.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "kim-taeyeon/p31.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Process"
+    },
+    {
+      "type": "image",
+      "src": "kim-taeyeon/p32.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "kim-taeyeon/p33.jpg",
+      "full": true
+    }
+  ],
+  "nam-jeheon": [
+    {
+      "type": "image",
+      "src": "nam-jeheon/p02.png",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "nam-jeheon/v03.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "section",
+      "label": "Background"
+    },
+    {
+      "type": "text",
+      "title": "반복되는 정리",
+      "body": "개인화된 업무와 학습 환경의 확산으로 데스크는 단순한 작업 공간을 넘어 일상 속 다양한 활동이 이루어지는 생활공간으로 변화하고 있습니다. 이에 따라 스마트폰, 태블릿, 문구류 등 다양한 물건의 사용과 이동이 반복되며 정리의 번거로움 또한 증가하고 있습니다."
+    },
+    {
+      "type": "image",
+      "src": "nam-jeheon/p05.png",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Painpoint"
+    },
+    {
+      "type": "text",
+      "title": "",
+      "body": "사용자는 데스크에서 다양한 물건을 자유롭게 꺼내 사용하지만, 바쁜 일상으로 인해 정리할 시간이 부족하고, 정리를 위해 물건을 하나씩 제자리로 돌려놓는 과정 또한 번거롭게 느껴 정리를 미루게 됩니다. 기존 오거나이저는 정리할 공간만 제공할 뿐, 사용 후 물건을 스스로 정돈하지 못한다는 한계가 있습니다."
+    },
+    {
+      "type": "image",
+      "src": "nam-jeheon/p07.png",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Persona"
+    },
+    {
+      "type": "text",
+      "title": "",
+      "body": "사용자의 부재를 활용해 정리 과정을 자동화하고, 물건을 지정된 위치로 되돌려주는 새로운 데스크 정리 경험이 필요하다고 생각했습니다."
+    },
+    {
+      "type": "image",
+      "src": "nam-jeheon/p09.png",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "User Journeymap"
+    },
+    {
+      "type": "text",
+      "title": "사용하지 않는 순간, 시작되는 정리",
+      "body": "사용자의 부재를 감지하면 OR:ma가 데스크 위 물건을 자동으로 정리하고 사용자가 지정한 위치로 복귀시킵니다."
+    },
+    {
+      "type": "image",
+      "src": "nam-jeheon/p11.png",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Concept"
+    },
+    {
+      "type": "text",
+      "title": "Leave it to OR:ma!",
+      "body": "오르마는 사용자의 움직임과 부재를 감지하고, 흩어진 물건을 스스로 제자리로 되돌리는 자동 정리를 통해\n보다 편안하고 정돈된 데스크 경험을 제공하는 로봇암입니다.",
+      "align": "center",
+      "size": "large"
+    },
+    {
+      "type": "image",
+      "src": "nam-jeheon/p13.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "nam-jeheon/p14.png",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Design mission"
+    },
+    {
+      "type": "image",
+      "src": "nam-jeheon/p15.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "nam-jeheon/p16.png",
+      "full": true
+    },
+    {
+      "type": "text",
+      "title": "SENSOR + ORGANIZE + LIVING",
+      "body": "OR:ma는 사용자가 데스크를 사용하는 동안에는 작업을 방해하지 않고 대기하며, 센서를 통해 사용자가 자리를 비운 것을 감지하고 데스크 위에 흩어진 물건을 인식해 지정된 위치로 스스로 정리합니다. 사용자가 다시 돌아오면 정돈된 데스크에서 바로 작업을 이어갈 수 있도록 하며, 물건의 사용이 끝나면 다시 정리할 수 있는 상태를 유지합니다. 또한 기존의 산업용 로봇암과 달리 데스크와 생활공간에 자연스럽게 어우러질 수 있도록 하나의 생활 오브제처럼 공간에 공존하는 리빙 디자인을 지향합니다.",
+      "align": "center"
+    },
+    {
+      "type": "section",
+      "label": "Product"
+    },
+    {
+      "type": "image",
+      "src": "nam-jeheon/p19.png",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Function"
+    },
+    {
+      "type": "image",
+      "src": "nam-jeheon/p23.png",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "UXUI"
+    },
+    {
+      "type": "video",
+      "src": "nam-jeheon/v25.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "image",
+      "src": "nam-jeheon/p26.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "nam-jeheon/p27.png",
+      "full": true
+    },
+    {
+      "type": "text",
+      "title": "Check how things are being organized now.",
+      "body": "OR:ma의 정리 진행 상황을 한눈에 확인할 수 있습니다.\n현재 정리 중인 물품과 전체 진행 상태를 확인하고 필요에 따라 정리를 잠시 멈출 수도 있습니다."
+    },
+    {
+      "type": "video",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false,
+      "src": "nam-jeheon/v29.mp4"
+    },
+    {
+      "type": "text",
+      "title": "Check your organization records.",
+      "body": "언제, 어떤 물품이 정리되었는지 기록으로 확인할 수 있습니다.\n반복되는 데스크 정리 패턴을 확인하며 나의 사용 환경을 이해할 수 있습니다."
+    },
+    {
+      "type": "video",
+      "src": "nam-jeheon/v31.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "text",
+      "title": "Check the desk’s status at a glance.",
+      "body": "센서가 감지한 데스크 상태와 사용자 감지 데이터를 확인할 수 있습니다.\n반복되는 데스크 정리 패턴을 확인하며 나의 사용 환경을 이해할 수 있습니다."
+    },
+    {
+      "type": "image",
+      "src": "nam-jeheon/p33.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "nam-jeheon/p34.png",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Process"
+    },
+    {
+      "type": "image",
+      "src": "nam-jeheon/p35.png",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "nam-jeheon/v36.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    }
+  ],
+  "kwak-hoyoung": [
+    {
+      "type": "image",
+      "src": "kwak-hoyoung/p02.png",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "kwak-hoyoung/v03.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "section",
+      "label": "Background"
+    },
+    {
+      "type": "text",
+      "title": "반려견과 함께하는 생활",
+      "body": "최근 반려견은 단순 애완의 대상이 아니라 가족 구성원으로 인식되며, 함께 생활하고 이동하는 것이 자연스러운 사회적 흐름으로 자리 잡고 있습니다. 반려견과 함께 외출하거나 여행을 떠나는 문화가 확산되면서, 이동 환경에서도 반려견을 동반하는 상황이 점점 일상화되고 있습니다."
+    },
+    {
+      "type": "image",
+      "src": "kwak-hoyoung/p05.png",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Painpoint"
+    },
+    {
+      "type": "text",
+      "body": "하지만 현재 자동차 실내 공간은 당연하게도 인간의 좌석 구조를 중심으로 설계되어 있으며, 그 결과 반려견은 차량의 주요 사용자가 아니라 인간을 위해 설계된 공간 위에 탑승하는 보조적인 존재로 남아 있게 됩니다."
+    },
+    {
+      "type": "image",
+      "src": "kwak-hoyoung/p07.png",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Discover"
+    },
+    {
+      "type": "text",
+      "body": "반려견과의 동행에서 중요한 것은 단순히 같은 차량 안에 머무는 것이 아니라, 반려견이 탑승하고 머물며 하차하는 전 과정이 자연스럽게 이어지는 것입니다."
+    },
+    {
+      "type": "image",
+      "src": "kwak-hoyoung/p09.png",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Solution"
+    },
+    {
+      "type": "text",
+      "title": "보호자와 반려견을 위한 새로운 실내 기준",
+      "body": "반려견을 위한 기능을 추가하는 방식이 아니라, 보호자와 반려견이 함께 머물 수 있는 이동 환경으로 차량 내부 공간 자체를 재구성합니다."
+    },
+    {
+      "type": "image",
+      "src": "kwak-hoyoung/p11.png",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Concept"
+    },
+    {
+      "type": "text",
+      "title": "A cabin for two beings",
+      "body": "심비모는 반려견과 함께 이동하는 일상이 자연스러워진 시대에, 보호자와 반려견의 이동 과정을 하나의 실내 경험으로 재구성한 1인 1견 EV 모빌리티입니다."
+    },
+    {
+      "type": "image",
+      "src": "kwak-hoyoung/p13.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "kwak-hoyoung/p14.png",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Design mission"
+    },
+    {
+      "type": "image",
+      "src": "kwak-hoyoung/p15.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "kwak-hoyoung/p16.png",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Diagram"
+    },
+    {
+      "type": "image",
+      "src": "kwak-hoyoung/p17a.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "kwak-hoyoung/p17b.png",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Features"
+    },
+    {
+      "type": "video",
+      "youtube": "https://youtu.be/rySxA8CNSlE"
+    },
+    {
+      "type": "image",
+      "src": "kwak-hoyoung/p19a.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "kwak-hoyoung/p19b.png",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "kwak-hoyoung/v20.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "video",
+      "src": "kwak-hoyoung/v21a.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "video",
+      "src": "kwak-hoyoung/v21b.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "image",
+      "src": "kwak-hoyoung/p22.png",
+      "full": true
+    },
+    {
+      "type": "video",
+      "youtube": "https://www.youtube.com/watch?v=ecOP0ucDx6Q"
+    },
+    {
+      "type": "section",
+      "label": "Process"
+    },
+    {
+      "type": "image",
+      "src": "kwak-hoyoung/p24.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "kwak-hoyoung/p25.png",
+      "full": true
+    }
+  ],
+  "jung-woohyun": [
+    {
+      "type": "image",
+      "src": "jung-woohyun/p02.png",
+      "full": true
+    },
+    {
+      "type": "video",
+      "youtube": "https://www.youtube.com/watch?v=FO6ZhRkrIGw"
+    },
+    {
+      "type": "section",
+      "label": "Background"
+    },
+    {
+      "type": "text",
+      "title": "평소의 모습으로 이어가고 싶은 일상",
+      "body": "산책과 모임처럼 자기 활동을 이어가고 싶은 액티브 시니어에게는 보조 기능만큼 평소의 옷차림과 모습도 중요합니다. 움직임에 도움이 필요해도, 겉으로 드러나는 보조 장비와 번거로운 착용은 사용을 망설이게 만듭니다."
+    },
+    {
+      "type": "video",
+      "src": "jung-woohyun/v05.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "section",
+      "label": "Painpoint"
+    },
+    {
+      "type": "text",
+      "body": "요즘 보행 보조기는 가벼워졌지만, 대부분 밖에서 걸을 때 다리를 드는 힘을 돕고 외출할 때 따로 찹니다. 정작 하루가 시작되는 실내에서 앉았다 일어서고 계단을 오르내릴 때, 무릎을 펴고 버티는 힘은 비어 있습니다."
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p07.png",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Discover"
+    },
+    {
+      "type": "text",
+      "body": "65세 이상 인구는 2025년 20.3%로 초고령사회에 들어섰습니다. 나이가 들면 걷기뿐 아니라 앉았다 일어서기·계단처럼 무릎을 펴는 동작도 힘들어지지만, 보행 보조기는 대부분 밖에서 걸을 때 쓰는 장치입니다."
+    },
+    {
+      "type": "video",
+      "src": "jung-woohyun/v09.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "video",
+      "src": "jung-woohyun/v10.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "section",
+      "label": "Solution"
+    },
+    {
+      "type": "text",
+      "title": "두 갈래 인공근육, A와 B",
+      "body": "위브온은 레깅스 안에 인공근육을 엮어 넣었습니다. A는 허리에서 허벅지로 이어져 다리 들기를, B는 무릎을 지나 종아리로 이어져 무릎 펴기와 천천히 버티기를 돕습니다."
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p12.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p13.png",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Concept"
+    },
+    {
+      "type": "text",
+      "title": "평소 옷차림 그대로, 움직임을 이어 입다",
+      "body": "위브온은 보조 장비를 옷 안으로 엮어 넣습니다. 근육 경로와 가이드, 전원부를 레깅스 한 벌에 담아 겉바지 안에 입으면 드러나지 않고, 입는 순간부터 일상의 움직임을 함께합니다.",
+      "align": "center",
+      "size": "lg"
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p15.png",
+      "full": true
+    },
+    {
+      "type": "text",
+      "title": "As-is",
+      "body": "보조기가 겉옷 위로 드러나 주변 시선이 신경 쓰입니다. 야외 걷기 중심이라 실내에서 앉고 일어서는 동작은 놓치기 쉽습니다."
+    },
+    {
+      "type": "text",
+      "title": "To-be",
+      "body": "겉바지 안에 입는 이너웨어라 평소 옷차림을 그대로 지킵니다. 앉고 일어서기부터 계단까지, A와 B를 조합해 함께 돕습니다."
+    },
+    {
+      "type": "video",
+      "src": "jung-woohyun/v17.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "section",
+      "label": "Design mission"
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p19.png",
+      "full": true
+    },
+    {
+      "type": "text",
+      "title": "익숙한 옷차림 그대로, 일상의 움직임을 이어가다.",
+      "body": "위브온은 보조기를 ‘차는’ 방식에서 ‘입는’ 방식으로 바꿉니다. 옷 안에서 조용히 움직임을 거들어, 스스로 걷고 일어서는 일상을 오래 이어가도록 합니다.",
+      "align": "center"
+    },
+    {
+      "type": "video",
+      "src": "jung-woohyun/v21.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "section",
+      "label": "Branding"
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p23.png",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "jung-woohyun/v24.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "section",
+      "label": "Product"
+    },
+    {
+      "type": "text",
+      "body": "허리부터 무릎까지, 옷 한 벌에 담은 구조"
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p26.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p27.png",
+      "full": true
+    },
+    {
+      "type": "text",
+      "title": "PARTS MAP — 네 부분이 한 벌로",
+      "body": "옆모습과 뒷모습의 번호가 아래 PART 01~04로 이어집니다."
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p29.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p30.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p31.png",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p32.png",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "jung-woohyun/v33.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "section",
+      "label": "UXUI"
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p35.png",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "jung-woohyun/v36.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "video",
+      "youtube": "https://www.youtube.com/watch?v=OAIjapI3mBg"
+    },
+    {
+      "type": "image",
+      "src": "jung-woohyun/p38.png",
+      "full": true
+    }
+  ],
+  "son-hanyoung": [
+    {
+      "type": "image",
+      "src": "son-hanyoung/p02.jpg",
+      "full": true
+    },
+    {
+      "type": "video",
+      "youtube": "https://www.youtube.com/watch?v=nsJ_9Q81RZY"
+    },
+    {
+      "type": "section",
+      "label": "Background"
+    },
+    {
+      "type": "text",
+      "title": "Homemade, reflecting personal taste",
+      "body": "자신의 취향을 식생활에 반영하려는 욕구는 집에서 직접 만드는 홈메이드 경험으로 이어집니다. 원하는 식품을 선택하고 맛과 식감, 양을 직접 조절하며 제조 과정에도 참여하는 것입니다. 프로젝트는 가공 방식에 따라 물성이 달라져 여러 식품으로 만들어지는 콩을 중심으로, 취향에 맞춘 제조 경험을 탐색합니다."
+    },
+    {
+      "type": "image",
+      "src": "son-hanyoung/p05.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Painpoint"
+    },
+    {
+      "type": "text",
+      "body": "가정에서 콩 식품을 직접 만드는 과정은 여러 제조 단계와 기기, 도구의 사용을 수반합니다. 특히 공정마다 필요한 수작업과 도구의 준비, 관리는 시간과 공간의 부담을 높이며, 사용자가 일상에서 다양한 콩 식품을 자신의 취향에 맞게 만들어 즐기는 데 제약이 따릅니다."
+    },
+    {
+      "type": "image",
+      "src": "son-hanyoung/p07.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Discover"
+    },
+    {
+      "type": "text",
+      "body": "두유, 두부, 낫토, 메주를 직접 만들려면 다양한 도구와 제조 단계가 필요합니다. 식품별 공정을 비교해 공통 공정을 확인하고, 이를 하나의 기기로 연결해 도구 준비와 공정 전환의 번거로움을 줄이고자 했습니다."
+    },
+    {
+      "type": "image",
+      "src": "son-hanyoung/p09.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Solution"
+    },
+    {
+      "type": "text",
+      "title": "다양한 콩 식품을 만드는 하나의 디바이스",
+      "body": "콩의 물성과 사용 동작을 고려해 공통 공정을 통합하고 식품별 후속 공정으로 분기합니다. 기기 준비의 부담을 줄이고 취향에 맞는 홈메이드 경험을 제안합니다."
+    },
+    {
+      "type": "image",
+      "src": "son-hanyoung/p11.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Concept"
+    },
+    {
+      "type": "text",
+      "title": "Make It Your Way, Duru!",
+      "body": "두루는 콩의 물성 변화와 공정 통합을 통해 두유, 두부, 낫토, 메주를 만드는 디바이스입니다. 공통 공정을 하나의 모듈에 모으고 식품별 후속 공정을 연결해, 원하는 식품을 취향에 맞게 만들어 즐기는 홈메이드 경험을 제안합니다.",
+      "align": "center",
+      "size": "lg"
+    },
+    {
+      "type": "image",
+      "src": "son-hanyoung/p13.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "son-hanyoung/p14.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Design mission"
+    },
+    {
+      "type": "image",
+      "src": "son-hanyoung/p16.jpg",
+      "full": true
+    },
+    {
+      "type": "text",
+      "title": "내 취향에 맞춰, 집에서 만드는 다양한 콩 식품",
+      "body": "두루는 콩의 물성 변화에 따른 제조 공정을 하나의 기기에 통합해 두유, 두부, 낫토, 메주를 만드는 디바이스입니다. 원하는 식품과 취향을 설정해, 여러 기기와 도구를 준비하는 부담을 줄이고 집에서 직접 만들어 즐기는 경험을 제안합니다.",
+      "align": "center"
+    },
+    {
+      "type": "image",
+      "src": "son-hanyoung/p18.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Diagram"
+    },
+    {
+      "type": "image",
+      "src": "son-hanyoung/p20.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "son-hanyoung/p21.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Product"
+    },
+    {
+      "type": "image",
+      "src": "son-hanyoung/p22.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Details"
+    },
+    {
+      "type": "image",
+      "src": "son-hanyoung/p24.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "son-hanyoung/p25.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Outro"
+    },
+    {
+      "type": "image",
+      "src": "son-hanyoung/p26.jpg",
+      "full": true
+    }
+  ],
+  "choi-yewon": [
+    {
+      "type": "image",
+      "src": "choi-yewon/p02.jpg",
+      "full": true
+    },
+    {
+      "type": "video",
+      "youtube": "https://www.youtube.com/watch?v=wVYn7GzhQ7g"
+    },
+    {
+      "type": "section",
+      "label": "Background"
+    },
+    {
+      "type": "text",
+      "title": "발전하는 미래 모빌리티 기술에 의한 스마트 유모차의 등장",
+      "body": "미래 모빌리티 기술은 단순한 운송을 넘어, 상황에 능동적으로 대응하고 물리적 작업을 수행하는 방향으로 발전하고 있습니다. 이러한 기술의 발전은 유모차에도 새로운 이동 방식을 가능하게 하며, 기존의 단순한 이동 보조도구에서 다양한 환경에 대응하는 스마트 모빌리티로의 확장을 이끌고 있습니다."
+    },
+    {
+      "type": "image",
+      "src": "choi-yewon/p05.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Painpoint"
+    },
+    {
+      "type": "text",
+      "body": "아파트 중심의 도시 환경에서는 차량 적재, 실내외 전환 등 다양한 이동 상황이 발생하고 있습니다. 그러나 기존 유모차는 고정적인 구조와 분리된 바구니, 폴딩 방식으로 인해 상황에 따른 유연한 대응이 어렵고 이동 과정에서 사용 흐름이 단절되고 있습니다."
+    },
+    {
+      "type": "image",
+      "src": "choi-yewon/p07.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Discover"
+    },
+    {
+      "type": "text",
+      "body": "DnL의 주행과 LIFT 기능을 유모차에 적용하여 이동과 물리적 보조를 하나의 시스템으로 연결할 수 있는 가능성을 발견했습니다."
+    },
+    {
+      "type": "image",
+      "src": "choi-yewon/p08.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Solution"
+    },
+    {
+      "type": "text",
+      "title": "드라이브 앤 리프트 방식의 유모차 디자인 제안",
+      "body": "유아 바구니를 LIFT 방식으로 들어 올리고 유모차와 연결할 수 있도록 설계하여, 차량 적재부터 실내외 이동까지 하나의 연속적인 사용 흐름으로 연결합니다."
+    },
+    {
+      "type": "image",
+      "src": "choi-yewon/p10.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Concept"
+    },
+    {
+      "type": "text",
+      "title": "짐을 덜어주는 유모차, 또 하나의 짐이 되지 않도록",
+      "body": "또 하나의 부담이 아니라, 덜어주는 존재. MOVOU는 사용자에게 또 하나의 짐이 되는 역설적인 존재가 아닌, 사용자의 부담을 덜어주고 이동 환경에서 새로운 경험을 심어줍니다.",
+      "align": "center",
+      "size": "lg"
+    },
+    {
+      "type": "image",
+      "src": "choi-yewon/p12.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "choi-yewon/p13.jpg",
+      "full": true
+    },
+    {
+      "type": "section",
+      "label": "Design mission"
+    },
+    {
+      "type": "image",
+      "src": "choi-yewon/p14.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "choi-yewon/p15.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "choi-yewon/p16.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "choi-yewon/p17.jpg",
+      "full": true
+    },
+    {
+      "type": "video",
+      "youtube": "https://www.youtube.com/watch?v=rNK9OITg5kc"
+    },
+    {
+      "type": "video",
+      "src": "choi-yewon/v19.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "section",
+      "label": "Product"
+    },
+    {
+      "type": "image",
+      "src": "choi-yewon/p20.jpg",
+      "full": true
+    },
+    {
+      "type": "image",
+      "src": "choi-yewon/p21.jpg",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "choi-yewon/v21.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "video",
+      "src": "choi-yewon/v22.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    },
+    {
+      "type": "section",
+      "label": "Process"
+    },
+    {
+      "type": "image",
+      "src": "choi-yewon/p23.jpg",
+      "full": true
+    },
+    {
+      "type": "video",
+      "src": "choi-yewon/v24.mp4",
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "controls": false
+    }
+  ]
+}
